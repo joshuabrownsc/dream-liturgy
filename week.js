@@ -63,7 +63,7 @@ psalm: {
           "Finished his days with splintered hands",
           "A taste of what would come ahead"
         ]},
-        { label: "PreChorus", lines: [
+        { label: "Pre-chorus", lines: [
           "Do you think that when he hung there",
           "The smell of wood reminded him of home?",
           "Did the sound of nails meeting wood",
@@ -94,7 +94,7 @@ psalm: {
         { label: "Bridge", lines: [
           "He's building us a home"
         ]},
-        { label: "PreChorus Two", lines: [
+        { label: "Pre-chorus Two", lines: [
           "When his body gave its last breath",
           "And death rejoiced and sang their victory",
           "As his body laid in darkness",
@@ -107,11 +107,118 @@ psalm: {
       ]
     },
     {
-      title: "Holy, Holy, Holy"
+      title: "The One You Love",
+      lyrics: [
+        { label: "Verse 1", lines: [
+          "I can be real with you",
+          "Say anything and not be afraid",
+          "You made me and you like what you made",
+          "You made me and you don't make mistakes",
+          "I can be real with you" 
+        ]},
+        { label: "Chorus", lines: [
+          "You take me just as I am",
+          "You choose me all over again",
+          "I am the one you love",
+          "I am the one you love",
+          "I don't have to prove anything",
+          "There's room at your table for me",
+          "I am the one you love",
+          "I am the one you love"
+        ]},
+        { label: "Verse 2", lines: [
+          "I know you're proud of me",
+          "Even when I don't think I deserve it",
+          "Yes, I am a perfect child",
+          "And I make my father smile",
+          "I know you're proud of me"
+        ]},
+        { label: "Chorus", lines: [
+          "You take me just as I am",
+          "You choose me all over again",
+          "I am the one you love",
+          "I am the one you love",
+          "I don't have to prove anything",
+          "There's room at your table for me",
+          "I am the one you love",
+          "I am the one you love"
+        ]},
+        { label: "Bridge", lines: [
+          "Your love your love never fails",
+          "Your love never fails"
+        ]},
+      ]
     },
     {
-      title: "Song Title Here"
-    }
+      title: "You Hold It All Together",
+      lyrics: [
+        { label: "Verse 1", lines: [
+          "You come at the right time",
+          "When I least expect it never behind",
+          "So why would I be surprised",
+          "When you deliver every time"
+        ]},
+        { label: "Pre-chorus", lines: [
+          "On mountain tops you stay the same",
+          "In valleys low you never change"
+        ]},
+        { label: "Chorus", lines: [
+          "I believe that I will see",
+          "The goodness of the Lord",
+          "I'm confident as seasons change",
+          "Your faithfulness remains"
+        ]},
+        { label: "Verse 2", lines: [
+          "You go you go before me",
+          "to prepare the blessing you made a way",
+          "It's more than I could imagine",
+          "More than I can fathom or comprehend"
+        ]},
+        { label: "Bridge", lines: [
+          "God of my present, God of my future",
+          "You write my story, you hold it all together"
+        ]},
+      ]
+    },
+     {
+      title: "The Breastplate of Saint Patrick",
+      lyrics: [
+        { label: "Verse 1", lines: [
+          "When my work takes me places I don't want to go",
+          "Christ before me",
+          "And my heart aches with sorrow as I hit the road",
+          "Christ be with me"
+        ]},
+        { label: "Verse 2", lines: [
+          "When the care of my family takes all that I have",
+          "Christ within me",
+          "When I'm worn and exhausted, ashamed that I'm mad",
+          "Christ defend me"
+        ]},
+        { label: "Chorus", lines: [
+          "I rise up today in a strength that is not my own",
+          "I'm held by the promise of God that I'm never alone"
+        ]},
+        { label: "Verse 3", lines: [
+          "When I'm tossed to the side and I want to give up",
+          "Christ beside me",
+          "When I'm busting my tail but it's never enough",
+          "Christ beside me"
+        ]},
+        { label: "Verse 4", lines: [
+          "When I work hard but someone else gets the reward",
+          "God's eyes see me",
+          "And I ask for promotion and they shut the door",
+          "God's ears hear me"
+        ]},
+        { label: "Verse 5", lines: [
+          "When I climb the first steps toward a long held dream",
+          "Christ above me",
+          "And I leap out in faith and I hope to find wings",
+          "Christ beneath me"
+        ]},
+      ]
+    },
   ],
 
 
