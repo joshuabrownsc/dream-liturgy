@@ -13,12 +13,9 @@ const SITE = {
   vision: "Dream Church is a church family being deeply formed in the love of Jesus and the ways of his kingdom.",
 
   // Small line printed above the footer at the very end of the service.
-  closingMark: "Go in peace",
+  closingMark: "Go in peace to love and serve the Lord.",
 
-  // Printed directly under the logo in the footer.
-  dismissal: "Go in peace to love and serve the Lord.",
-
-  // Optional italic line above the giving buttons. Set to "" to hide it.
+ // Optional italic line above the giving buttons. Set to "" to hide it.
   givingRubric: "Let us with gladness present the offerings and gifts of our life and labor to the Lord.",
 
   give: [
