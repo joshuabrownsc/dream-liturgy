@@ -635,7 +635,8 @@ html{scroll-behavior:smooth}
     html += '<div class="give-stack">';
     SITE.give.forEach(function(g){
       var href = has(g.appUrl) ? g.appUrl : g.url;
-      html += '<a class="give-btn' + (g.primary ? " primary" : "") + '" href="' + esc(href) + '" rel="noopener">' +
+      html += '<a class="give-btn' + (g.primary ? " primary" : "") + '" href="' + esc(href) + '"' +
+        (g.primary ? ' target="_blank"' : '') + ' rel="noopener">' +
               '<span class="label">' + esc(g.label) + '</span>' +
               (has(g.handle) ? '<span class="handle">' + esc(g.handle) + '</span>' : '') +
               '</a>';
