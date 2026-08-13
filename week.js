@@ -58,17 +58,52 @@ psalm: {
       title: "Come Thou Fount of Every Blessing",
       lyrics: [
         { label: "Verse 1", lines: [
-          "Come, thou fount of every blessing,",
-          "tune my heart to sing thy grace;",
-          "streams of mercy, never ceasing,",
-          "call for songs of loudest praise."
+          "Carpenter Boy of Bethlehem"
+          "Son of God made Son of Man"
+          "Finished his days with splintered hands"
+          "A taste of what would come ahead"
         ]},
-        { label: "Verse 3", lines: [
-          "O to grace how great a debtor",
-          "daily I'm constrained to be;",
-          "let thy goodness, like a fetter,",
-          "bind my wandering heart to thee."
+        { label: "PreChorus", lines: [
+          "Do you think that when he hung there"
+          "The smell of wood reminded him of home?"
+          "Did the sound of nails meeting wood"
+          "Remind him of a time when he was not alone?"
         ]}
+         { label: "Chorus", lines: [
+          "Behold him"
+          "The one who left his kingdom to be broken"
+          "The one who put the cross upon his shoulders"
+          "The king of kings has come and made me whole"
+        ]},
+          { label: "Verse 2", lines: [
+          "Carpenter Boy, the perfect lamb"
+          "Trusting in his father's plan"
+          "No matter what would come ahead"
+          "He'd be faithful to the very end"
+        ]},
+         { label: "Chorus", lines: [
+          "Behold him"
+          "The one who left his kingdom to be broken"
+          "The one who put the cross upon his shoulders"
+          "The king of kings has come and made me whole"
+          "Praise the Savior"
+          "Who died upon a tree that he created"
+          "He carved my name, it's written up in heaven"
+          "The Carpenter is building us a home"
+        ]},
+         { label: "Bridge", lines: [
+          "He's building us a home"
+        ]},
+          { label: "PreChorus Two", lines: [
+          "When his body gave its last breath"
+          "And death rejoiced and sang their victory"
+          "As his body laid in darkness"
+          "He seemed to be surrounded by defeat"
+          "But when that Son rose on that Sunday"
+          "The Light of the World had rolled away the stone"
+          "Oh, can you hear the heavens roaring"
+          "Singing, "Holy is, Holy is the Lord!"?"
+        ]},
       ]
     },
     {
