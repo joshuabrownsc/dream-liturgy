@@ -15,8 +15,8 @@ const WEEK = {
      THE HEADER
      -------------------------------------------------------- */
   date: "August 16, 2026",
-  season: "The Eleventh Sunday after Pentecost",
-  title: "The Fire He Came to Kindle",
+  season: "The Twelfth Sunday after Pentecost",
+  title: "A High View of Church",
   preacher: "Pastor Joshua Brown",
 
 
@@ -87,10 +87,10 @@ const WEEK = {
      Three is the ceiling. Anything else goes in the newsletter.
      -------------------------------------------------------- */
   announcements: [
-    { title: "Sunday Lunch, August 23",
-      body: "We are eating together after the service in the fellowship space. Bring something to share if you can, and come anyway if you can't." },
-    { title: "Baptism Sunday, September 6",
-      body: "If you want to be baptized, talk to Joshua after the service or reply to the newsletter this week." }
+    { title: "Midweek This Tuesday at 7 PM",
+      body: "We will be continuing in Acts 5. Check GroupMe for all details." },
+    { title: "Fireflies Game | Saturday, August 22",
+      body: "We are going to the Columbia Fireflies game as a church for Faith and Family Night. Purchase tickets here: https://www.gofevo.com/event/Dreamchurch2" }
   ],
 
 
@@ -100,9 +100,9 @@ const WEEK = {
      "Amen." is added for you at the end.
      -------------------------------------------------------- */
   collect: {
-    title: "The Collect for the Eleventh Sunday after Pentecost",
+    title: "The Collect for the Twelfth Sunday after Pentecost",
     rubric: "Prayed together, out loud.",
-    text: "Almighty God, you have given your only Son to be for us a sacrifice for sin, and also an example of godly life: Give us grace to receive thankfully the fruits of his redeeming work, and to follow daily in the blessed steps of his most holy life; through Jesus Christ your Son our Lord, who lives and reigns with you and the Holy Spirit, one God, now and for ever."
+    text: "Almighty God, you have given your only Son to be for us a sacrifice for sin, and also an example of godly life: Give us grace to receive thankfully the fruits of his redeeming work, and to follow daily in the blessed steps of his most holy life; through Jesus Christ your Son our Lord, who lives and reigns with you and the Holy Spirit, one God, now and for ever. Amen."
   },
 
 
@@ -112,7 +112,7 @@ const WEEK = {
      reference on the screen.
      -------------------------------------------------------- */
   sermon: {
-    title: "The Fire He Came to Kindle",
+    title: "A High View of Church",
     readings: [
       { reference: "Luke 12:49–56" },
       { reference: "Hebrews 11:29 – 12:2" }
