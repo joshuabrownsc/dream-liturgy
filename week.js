@@ -25,26 +25,34 @@ const WEEK = {
      Each verse has a number, a first half (a), and a second
      half (b). The asterisk between them is added for you.
      -------------------------------------------------------- */
-  psalm: {
-    reference: "Psalm 82",
+psalm: {
+    reference: "Psalm 60",
     rubric: "Read together, the whole room, unhurried.",
     verses: [
-      { n: 1, a: "God takes his stand in the council of heaven;",
-             b: "he gives judgment in the midst of the gods:" },
-      { n: 2, a: "How long will you judge unjustly,",
-             b: "and show favor to the wicked?" },
-      { n: 3, a: "Save the weak and the orphan;",
-             b: "defend the humble and needy;" },
-      { n: 4, a: "Rescue the weak and the poor;",
-             b: "deliver them from the power of the wicked." },
-      { n: 5, a: "They do not know, neither do they understand; they go about in darkness;",
-             b: "all the foundations of the earth are shaken." },
-      { n: 6, a: "Now I say to you, 'You are gods,",
-             b: "and all of you children of the Most High;" },
-      { n: 7, a: "Nevertheless, you shall die like mortals,",
-             b: "and fall like any prince.'" },
-      { n: 8, a: "Arise, O God, and rule the earth,",
-             b: "for you shall take all nations for your own." }
+      { n: 1, a: "O God, you have cast us off and broken us;",
+             b: "you have been angry; oh, take us back to you again." },
+      { n: 2, a: "You have shaken the earth and split it open;",
+             b: "repair the cracks in it, for it totters." },
+      { n: 3, a: "You have made your people know hardship;",
+             b: "you have given us wine that makes us stagger." },
+      { n: 4, a: "You have set up a banner for those who fear you,",
+             b: "to be a refuge from the power of the bow." },
+      { n: 5, a: "Save us by your right hand and answer us,",
+             b: "that those who are dear to you may be delivered." },
+      { n: 6, a: "God spoke from his holy place and said:",
+             b: "\"I will exult and parcel out Shechem; I will divide the valley of Succoth." },
+      { n: 7, a: "Gilead is mine, and Manasseh is mine;",
+             b: "Ephraim is my helmet and Judah my scepter." },
+      { n: 8, a: "Moab is my wash-basin; on Edom I throw down my sandal;",
+             b: "and over Philistia will I shout in triumph.\"" },
+      { n: 9, a: "Who will lead me into the strong city?",
+             b: "who will bring me into Edom?" },
+      { n: 10, a: "Have you not cast us off, O God?",
+             b: "you no longer go out, O God, with our armies." },
+      { n: 11, a: "Grant us your help against the enemy,",
+             b: "for vain is the help of man." },
+      { n: 12, a: "With God we will do valiant deeds,",
+             b: "and he shall tread our enemies under foot." }
     ]
   },
 
