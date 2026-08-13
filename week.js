@@ -228,7 +228,7 @@ psalm: {
      -------------------------------------------------------- */
   announcements: [
     { title: "Midweek This Tuesday at 7 PM",
-      body: "We will be continuing in Acts 5. Check GroupMe for all details." },
+      body: "We will be continuing in Acts 6. Check GroupMe for all details." },
 { title: "Fireflies Game | Saturday, August 22",
       body: "We are going to the Columbia Fireflies game as a church for Faith and Family Night. Purchase tickets here:",
       link: "https://www.gofevo.com/event/Dreamchurch2",
