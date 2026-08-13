@@ -54,56 +54,56 @@ psalm: {
      song and only the title will show.
      -------------------------------------------------------- */
   songs: [
-    {
+ {
       title: "Carpenter Boy",
       lyrics: [
         { label: "Verse 1", lines: [
-          "Carpenter Boy of Bethlehem"
-          "Son of God made Son of Man"
-          "Finished his days with splintered hands"
+          "Carpenter Boy of Bethlehem",
+          "Son of God made Son of Man",
+          "Finished his days with splintered hands",
           "A taste of what would come ahead"
         ]},
         { label: "PreChorus", lines: [
-          "Do you think that when he hung there"
-          "The smell of wood reminded him of home?"
-          "Did the sound of nails meeting wood"
+          "Do you think that when he hung there",
+          "The smell of wood reminded him of home?",
+          "Did the sound of nails meeting wood",
           "Remind him of a time when he was not alone?"
-        ]}
-         { label: "Chorus", lines: [
-          "Behold him"
-          "The one who left his kingdom to be broken"
-          "The one who put the cross upon his shoulders"
+        ]},
+        { label: "Chorus", lines: [
+          "Behold him",
+          "The one who left his kingdom to be broken",
+          "The one who put the cross upon his shoulders",
           "The king of kings has come and made me whole"
         ]},
-          { label: "Verse 2", lines: [
-          "Carpenter Boy, the perfect lamb"
-          "Trusting in his father's plan"
-          "No matter what would come ahead"
+        { label: "Verse 2", lines: [
+          "Carpenter Boy, the perfect lamb",
+          "Trusting in his father's plan",
+          "No matter what would come ahead",
           "He'd be faithful to the very end"
         ]},
-         { label: "Chorus", lines: [
-          "Behold him"
-          "The one who left his kingdom to be broken"
-          "The one who put the cross upon his shoulders"
-          "The king of kings has come and made me whole"
-          "Praise the Savior"
-          "Who died upon a tree that he created"
-          "He carved my name, it's written up in heaven"
+        { label: "Chorus", lines: [
+          "Behold him",
+          "The one who left his kingdom to be broken",
+          "The one who put the cross upon his shoulders",
+          "The king of kings has come and made me whole",
+          "Praise the Savior",
+          "Who died upon a tree that he created",
+          "He carved my name, it's written up in heaven",
           "The Carpenter is building us a home"
         ]},
-         { label: "Bridge", lines: [
+        { label: "Bridge", lines: [
           "He's building us a home"
         ]},
-          { label: "PreChorus Two", lines: [
-          "When his body gave its last breath"
-          "And death rejoiced and sang their victory"
-          "As his body laid in darkness"
-          "He seemed to be surrounded by defeat"
-          "But when that Son rose on that Sunday"
-          "The Light of the World had rolled away the stone"
-          "Oh, can you hear the heavens roaring"
+        { label: "PreChorus Two", lines: [
+          "When his body gave its last breath",
+          "And death rejoiced and sang their victory",
+          "As his body laid in darkness",
+          "He seemed to be surrounded by defeat",
+          "But when that Son rose on that Sunday",
+          "The Light of the World had rolled away the stone",
+          "Oh, can you hear the heavens roaring",
           "Singing, \"Holy is, Holy is the Lord!\"?"
-        ]},
+        ]}
       ]
     },
     {
