@@ -26,33 +26,23 @@ const WEEK = {
      half (b). The asterisk between them is added for you.
      -------------------------------------------------------- */
 psalm: {
-    reference: "Psalm 60",
+    reference: "Psalm 67",
     rubric: "Read together, the whole room, unhurried.",
     verses: [
-      { n: 1, a: "O God, you have cast us off and broken us;",
-             b: "you have been angry; oh, take us back to you again." },
-      { n: 2, a: "You have shaken the earth and split it open;",
-             b: "repair the cracks in it, for it totters." },
-      { n: 3, a: "You have made your people know hardship;",
-             b: "you have given us wine that makes us stagger." },
-      { n: 4, a: "You have set up a banner for those who fear you,",
-             b: "to be a refuge from the power of the bow." },
-      { n: 5, a: "Save us by your right hand and answer us,",
-             b: "that those who are dear to you may be delivered." },
-      { n: 6, a: "God spoke from his holy place and said:",
-             b: "\"I will exult and parcel out Shechem; I will divide the valley of Succoth." },
-      { n: 7, a: "Gilead is mine, and Manasseh is mine;",
-             b: "Ephraim is my helmet and Judah my scepter." },
-      { n: 8, a: "Moab is my wash-basin; on Edom I throw down my sandal;",
-             b: "and over Philistia will I shout in triumph.\"" },
-      { n: 9, a: "Who will lead me into the strong city?",
-             b: "who will bring me into Edom?" },
-      { n: 10, a: "Have you not cast us off, O God?",
-             b: "you no longer go out, O God, with our armies." },
-      { n: 11, a: "Grant us your help against the enemy,",
-             b: "for vain is the help of man." },
-      { n: 12, a: "With God we will do valiant deeds,",
-             b: "and he shall tread our enemies under foot." }
+      { n: 1, a: "May God be merciful to us and bless us,",
+             b: "show us the light of his countenance and come to us." },
+      { n: 2, a: "Let your ways be known upon earth,",
+             b: "your saving health among all nations." },
+      { n: 3, a: "Let the peoples praise you, O God;",
+             b: "let all the peoples praise you." },
+      { n: 4, a: "Let the nations be glad and sing for joy,",
+             b: "for you judge the peoples with equity and guide all the nations upon earth." },
+      { n: 5, a: "Let the peoples praise you, O God;",
+             b: "let all the peoples praise you." },
+      { n: 6, a: "The earth has brought forth her increase;",
+             b: "may God, our own God, give us his blessing." },
+      { n: 7, a: "May God give us his blessing,",
+             b: "and may all the ends of the earth stand in awe of him." }
     ]
   },
 
