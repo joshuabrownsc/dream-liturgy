@@ -102,7 +102,7 @@ psalm: {
           "But when that Son rose on that Sunday"
           "The Light of the World had rolled away the stone"
           "Oh, can you hear the heavens roaring"
-          "Singing, "Holy is, Holy is the Lord!"?"
+          "Singing, \"Holy is, Holy is the Lord!\"?"
         ]},
       ]
     },
