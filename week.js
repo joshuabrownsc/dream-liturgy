@@ -114,8 +114,7 @@ psalm: {
   sermon: {
     title: "A High View of Church",
     readings: [
-      { reference: "Luke 12:49–56" },
-      { reference: "Hebrews 11:29 – 12:2" }
+      { reference: "1 Corinthians 12:12-27 NRSV" },
     ]
   },
 
