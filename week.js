@@ -55,7 +55,7 @@ psalm: {
      -------------------------------------------------------- */
   songs: [
     {
-      title: "Come Thou Fount of Every Blessing",
+      title: "Carpenter Boy",
       lyrics: [
         { label: "Verse 1", lines: [
           "Carpenter Boy of Bethlehem"
