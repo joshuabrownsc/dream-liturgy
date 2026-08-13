@@ -1,0 +1,733 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>This Sunday · Dream Church</title>
+<meta name="description" content="Follow along with this Sunday's liturgy at Dream Church in Columbia, South Carolina.">
+<meta name="theme-color" content="#161F24">
+
+<link rel="icon" href="assets/favicon-32.png" sizes="32x32">
+<link rel="icon" href="assets/favicon-64.png" sizes="64x64">
+<link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+<meta name="apple-mobile-web-app-title" content="Dream Church">
+
+<meta property="og:type" content="website">
+<meta property="og:title" content="This Sunday · Dream Church">
+<meta property="og:description" content="Follow along with this Sunday's liturgy.">
+<meta property="og:image" content="assets/og-image.png">
+<meta name="twitter:card" content="summary_large_image">
+
+<style>
+/* ============================================================
+   FONTS
+   Drop licensed webfont files into /fonts and these activate.
+   Until then the stack falls back gracefully.
+   ============================================================ */
+@font-face{
+  font-family:"Dream Avenue";
+  src:url("fonts/DreamAvenue.woff2") format("woff2"),
+      url("fonts/DreamAvenue.woff") format("woff");
+  font-weight:400; font-style:normal; font-display:swap;
+}
+@font-face{
+  font-family:"TT Drugs";
+  src:url("fonts/TTDrugs-Regular.woff2") format("woff2"),
+      url("fonts/TTDrugs-Regular.woff") format("woff");
+  font-weight:400; font-style:normal; font-display:swap;
+}
+@font-face{
+  font-family:"TT Drugs";
+  src:url("fonts/TTDrugs-Medium.woff2") format("woff2"),
+      url("fonts/TTDrugs-Medium.woff") format("woff");
+  font-weight:500; font-style:normal; font-display:swap;
+}
+@font-face{
+  font-family:"TT Drugs";
+  src:url("fonts/TTDrugs-Bold.woff2") format("woff2"),
+      url("fonts/TTDrugs-Bold.woff") format("woff");
+  font-weight:700; font-style:normal; font-display:swap;
+}
+
+/* ============================================================
+   TOKENS
+   ============================================================ */
+:root{
+  --ink:#161F24;
+  --paper:#FFFFFF;
+  --muted:#5D686E;
+  --faint:#8A9298;
+  --rule:rgba(22,31,36,.13);
+  --rule-strong:rgba(22,31,36,.26);
+  --rubric:#8A2E2A;
+
+  --display:"Dream Avenue","Didot","Bodoni MT","Playfair Display","Times New Roman",serif;
+  --ui:"TT Drugs","Helvetica Neue",Helvetica,Arial,sans-serif;
+  --body:"Times New Roman",Times,serif;
+
+  --col:38rem;
+  --pad:1.5rem;
+  --bar:3.5rem;
+}
+
+*,*::before,*::after{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{
+  margin:0;
+  background:var(--paper);
+  color:var(--ink);
+  font-family:var(--body);
+  font-size:17px;
+  line-height:1.62;
+  -webkit-font-smoothing:antialiased;
+  text-rendering:optimizeLegibility;
+}
+img{max-width:100%;display:block}
+a{color:inherit}
+
+.wrap{max-width:var(--col);margin:0 auto;padding:0 var(--pad)}
+
+:focus-visible{
+  outline:2px solid var(--ink);
+  outline-offset:3px;
+  border-radius:2px;
+}
+
+/* ============================================================
+   STICKY BAR + SECTION CHIPS
+   ============================================================ */
+.bar{
+  position:sticky;top:0;z-index:50;
+  background:rgba(255,255,255,.965);
+  backdrop-filter:saturate(180%) blur(14px);
+  -webkit-backdrop-filter:saturate(180%) blur(14px);
+  border-bottom:1px solid var(--rule);
+  padding-top:env(safe-area-inset-top);
+}
+.bar-top{
+  display:flex;align-items:center;gap:.6rem;
+  height:var(--bar);
+  max-width:var(--col);margin:0 auto;padding:0 var(--pad);
+}
+.bar-crest{width:19px;height:auto;flex:none}
+.bar-name{
+  font-family:var(--ui);font-weight:500;
+  font-size:.66rem;letter-spacing:.2em;text-transform:uppercase;
+  color:var(--ink);
+}
+.bar-date{
+  margin-left:auto;
+  font-family:var(--ui);font-size:.66rem;letter-spacing:.09em;
+  color:var(--faint);text-transform:uppercase;
+  white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:8.5rem;
+}
+
+.chips{
+  border-top:1px solid var(--rule);
+  overflow-x:auto;
+  overscroll-behavior-x:contain;
+  scrollbar-width:none;
+  -webkit-overflow-scrolling:touch;
+}
+.chips::-webkit-scrollbar{display:none}
+.chips-inner{
+  display:flex;gap:.4rem;justify-content:center;
+  padding:.55rem var(--pad);
+  max-width:var(--col);margin:0 auto;
+  width:max-content;min-width:100%;
+}
+.chip{
+  font-family:var(--ui);font-weight:500;
+  font-size:.66rem;letter-spacing:.13em;text-transform:uppercase;
+  color:var(--muted);
+  text-decoration:none;
+  padding:.4rem .7rem;
+  border:1px solid var(--rule);
+  border-radius:999px;
+  white-space:nowrap;
+  transition:background .18s ease,color .18s ease,border-color .18s ease;
+}
+.chip[aria-current="true"]{
+  background:var(--ink);color:var(--paper);border-color:var(--ink);
+}
+
+/* ============================================================
+   MASTHEAD
+   ============================================================ */
+.masthead{
+  text-align:center;
+  padding:3.25rem 0 1.5rem;
+}
+.masthead-crest{width:56px;margin:0 auto 1.6rem}
+.eyebrow{
+  font-family:var(--ui);font-weight:500;
+  font-size:.68rem;letter-spacing:.22em;text-transform:uppercase;
+  color:var(--muted);
+  margin:0 0 .35rem;
+}
+.season{
+  font-family:var(--body);font-style:italic;
+  font-size:.98rem;color:var(--muted);
+  margin:0 0 1.5rem;
+}
+.masthead h1{
+  font-family:var(--display);font-weight:400;
+  font-size:clamp(2.15rem,10vw,3.05rem);
+  line-height:1.08;letter-spacing:.005em;
+  margin:0;
+}
+.masthead-rule{
+  width:44px;height:1px;background:var(--rule-strong);
+  margin:1.75rem auto 0;
+}
+.preacher{
+  font-family:var(--ui);font-size:.7rem;letter-spacing:.16em;
+  text-transform:uppercase;color:var(--faint);
+  margin:1.1rem 0 0;
+}
+
+/* ============================================================
+   SECTION SCAFFOLD — the arch marker is the signature
+   ============================================================ */
+.movement{
+  padding:2.5rem 0;
+  border-top:1px solid var(--rule);
+  scroll-margin-top:calc(var(--bar) + 3.1rem);
+}
+.movement:first-of-type{border-top:none}
+
+.movement-head{
+  display:flex;align-items:center;gap:.85rem;
+  margin:0 0 1.6rem;
+}
+.arch{
+  flex:none;
+  width:26px;height:34px;
+  background:var(--ink);
+  border-radius:13px 13px 2px 2px;
+  display:flex;align-items:center;justify-content:center;
+  padding-top:.35rem;
+}
+.arch span{
+  font-family:var(--ui);font-weight:500;
+  font-size:.68rem;letter-spacing:.04em;
+  color:var(--paper);
+}
+.movement-head h2{
+  font-family:var(--ui);font-weight:500;
+  font-size:.76rem;letter-spacing:.24em;text-transform:uppercase;
+  margin:0;flex:none;
+}
+.movement-head::after{
+  content:"";flex:1;height:1px;background:var(--rule);
+}
+
+.rubric{
+  font-family:var(--body);font-style:italic;
+  font-size:.92rem;line-height:1.5;
+  color:var(--rubric);
+  margin:0 0 1.15rem;
+}
+.reference{
+  font-family:var(--ui);font-weight:500;
+  font-size:.78rem;letter-spacing:.13em;text-transform:uppercase;
+  color:var(--ink);
+  margin:0 0 .5rem;
+}
+
+/* ============================================================
+   PSALM — Book of Common Prayer pointing
+   ============================================================ */
+.psalm{margin:0;padding:0;list-style:none;counter-reset:none}
+.psalm li{
+  display:grid;
+  grid-template-columns:1.7rem 1fr;
+  gap:0 .4rem;
+  margin:0 0 .85rem;
+}
+.psalm .vn{
+  font-family:var(--ui);font-weight:400;
+  font-size:.72rem;letter-spacing:.02em;
+  color:var(--faint);
+  padding-top:.42rem;
+  font-variant-numeric:tabular-nums;
+}
+.psalm .vt{margin:0}
+.psalm .half-b{
+  display:block;
+  padding-left:1.05rem;
+}
+.psalm .star{color:var(--rubric);padding-left:.15em}
+
+/* ============================================================
+   SONGS
+   ============================================================ */
+.song{padding-bottom:1.6rem}
+.song + .song{border-top:1px solid var(--rule);padding-top:1.6rem}
+.song:last-of-type{padding-bottom:0}
+.song-n{
+  font-family:var(--ui);font-size:.66rem;letter-spacing:.18em;
+  text-transform:uppercase;color:var(--faint);
+  margin:0 0 .3rem;
+}
+.song h3{
+  font-family:var(--display);font-weight:400;
+  font-size:1.55rem;line-height:1.18;
+  margin:0 0 .35rem;
+}
+.song-meta{
+  font-family:var(--body);font-style:italic;
+  font-size:.9rem;color:var(--muted);
+  margin:0;
+}
+.lyrics{margin:1.1rem 0 0}
+.lyric-block{margin:0 0 1.05rem}
+.lyric-block:last-child{margin-bottom:0}
+.lyric-label{
+  font-family:var(--ui);font-weight:500;
+  font-size:.62rem;letter-spacing:.19em;text-transform:uppercase;
+  color:var(--faint);
+  margin:0 0 .25rem;
+}
+.lyric-lines{margin:0;line-height:1.5}
+.song-credit{
+  font-family:var(--ui);
+  font-size:.66rem;line-height:1.5;letter-spacing:.02em;
+  color:var(--faint);
+  margin:1rem 0 0;
+}
+.song-link{
+  display:inline-block;margin-top:.7rem;
+  font-family:var(--ui);font-size:.68rem;letter-spacing:.14em;
+  text-transform:uppercase;color:var(--ink);
+  text-decoration:none;
+  border-bottom:1px solid var(--rule-strong);
+  padding-bottom:2px;
+}
+
+/* ============================================================
+   ANNOUNCEMENTS
+   ============================================================ */
+.note-item{padding-bottom:1.15rem}
+.note-item + .note-item{border-top:1px solid var(--rule);padding-top:1.15rem}
+.note-item:last-of-type{padding-bottom:0}
+.note-item h3{
+  font-family:var(--ui);font-weight:500;
+  font-size:.94rem;letter-spacing:.01em;
+  margin:0 0 .25rem;
+}
+.note-item p{margin:0;color:var(--ink)}
+.note-item a{color:var(--ink);text-decoration:underline;text-underline-offset:3px}
+
+/* ============================================================
+   GIVING BUTTONS
+   ============================================================ */
+.give-note{
+  font-family:var(--body);font-style:italic;
+  font-size:.92rem;line-height:1.55;color:var(--muted);
+  margin:0 0 1.15rem;
+}
+.give-stack{display:grid;gap:.6rem;margin-top:.25rem}
+.give-btn{
+  display:flex;align-items:center;justify-content:space-between;gap:1rem;
+  width:100%;
+  min-height:56px;
+  padding:.9rem 1.2rem;
+  text-decoration:none;
+  border:1px solid var(--ink);
+  background:var(--paper);color:var(--ink);
+  transition:background .18s ease,color .18s ease,transform .12s ease;
+}
+.give-btn:active{transform:scale(.99)}
+.give-btn .label{
+  font-family:var(--ui);font-weight:500;
+  font-size:.82rem;letter-spacing:.14em;text-transform:uppercase;
+}
+.give-btn .handle{
+  font-family:var(--body);font-size:.9rem;color:var(--muted);
+}
+.give-btn.primary{background:var(--ink);color:var(--paper);}
+.give-btn.primary .handle{color:rgba(255,255,255,.6)}
+@media (hover:hover){
+  .give-btn:hover{background:var(--ink);color:var(--paper)}
+  .give-btn:hover .handle{color:rgba(255,255,255,.6)}
+  .give-btn.primary:hover{background:#0C1418}
+}
+
+/* ============================================================
+   PRAYER / COLLECT
+   ============================================================ */
+.collect{
+  font-size:1.08rem;line-height:1.7;
+  margin:0;
+}
+.collect .amen{
+  font-family:var(--ui);font-weight:500;
+  font-size:.74rem;letter-spacing:.24em;text-transform:uppercase;
+  display:block;margin-top:1rem;
+}
+
+/* ============================================================
+   SERMON
+   ============================================================ */
+.reading{padding-bottom:1.4rem}
+.reading + .reading{border-top:1px solid var(--rule);padding-top:1.4rem}
+.reading:last-of-type{padding-bottom:0}
+.reading p{margin:0}
+.sermon-title{
+  font-family:var(--display);font-weight:400;
+  font-size:1.7rem;line-height:1.16;
+  margin:0 0 1.4rem;
+}
+
+/* ============================================================
+   CLOSING MARK
+   ============================================================ */
+.amen-mark{
+  text-align:center;
+  padding:3rem 0 3.5rem;
+  border-top:1px solid var(--rule);
+}
+.amen-mark img{width:34px;margin:0 auto 1.1rem;opacity:.9}
+.amen-mark p{
+  font-family:var(--ui);font-size:.68rem;letter-spacing:.26em;
+  text-transform:uppercase;color:var(--faint);margin:0;
+}
+
+/* ============================================================
+   FOOTER
+   ============================================================ */
+footer{
+  background:var(--ink);color:var(--paper);
+  padding:3.5rem 0 calc(2.75rem + env(safe-area-inset-bottom));
+  text-align:center;
+}
+.footer-lockup{width:180px;margin:0 auto 2rem}
+.vision{
+  font-family:var(--body);font-size:1.02rem;line-height:1.6;
+  color:rgba(255,255,255,.86);
+  margin:0 auto 2.5rem;max-width:26rem;
+}
+.connect-label{
+  font-family:var(--ui);font-weight:500;
+  font-size:.66rem;letter-spacing:.24em;text-transform:uppercase;
+  color:rgba(255,255,255,.5);
+  margin:0 0 1rem;
+}
+.socials{
+  display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:.5rem;
+  max-width:19rem;margin:0 auto 2.5rem;
+}
+@media (min-width:30rem){
+  .socials{display:flex;justify-content:center;max-width:none}
+}
+.social{
+  text-align:center;
+  font-family:var(--ui);font-weight:500;
+  font-size:.68rem;letter-spacing:.14em;text-transform:uppercase;
+  color:var(--paper);text-decoration:none;
+  padding:.55rem 1rem;
+  border:1px solid rgba(255,255,255,.28);
+  border-radius:999px;
+  transition:background .18s ease,color .18s ease,border-color .18s ease;
+}
+@media (hover:hover){
+  .social:hover{background:var(--paper);color:var(--ink);border-color:var(--paper)}
+}
+.colophon{
+  font-family:var(--ui);
+  font-size:.63rem;line-height:1.8;letter-spacing:.06em;
+  color:rgba(255,255,255,.38);
+  margin:0;
+}
+.colophon a{color:inherit}
+
+/* ============================================================
+   LOADING / ERROR
+   ============================================================ */
+.fallback{
+  padding:5rem 0;text-align:center;
+  font-family:var(--body);font-style:italic;color:var(--muted);
+}
+
+/* ============================================================
+   MOTION
+   ============================================================ */
+.reveal{opacity:0;transform:translateY(10px);animation:rise .7s cubic-bezier(.22,.61,.36,1) forwards}
+@keyframes rise{to{opacity:1;transform:none}}
+@media (prefers-reduced-motion:reduce){
+  *{animation:none!important;transition:none!important}
+  .reveal{opacity:1;transform:none}
+  html{scroll-behavior:auto}
+}
+html{scroll-behavior:smooth}
+
+/* ============================================================
+   WIDER SCREENS
+   ============================================================ */
+@media (min-width:48rem){
+  :root{--pad:2rem}
+  body{font-size:18px}
+  .masthead{padding:5rem 0 2.25rem}
+  .masthead-crest{width:68px}
+  .movement{padding:3.25rem 0}
+  footer{padding:5rem 0 3.5rem}
+}
+
+/* ============================================================
+   PRINT — the page doubles as a printable bulletin
+   ============================================================ */
+@media print{
+  .bar,.song-link{display:none!important}
+  body{font-size:11pt;color:#000}
+  footer{background:none;color:#000;padding:1.5rem 0 0;border-top:1px solid #999}
+  .footer-lockup{display:none}
+  .vision{color:#000}
+  .socials,.connect-label{display:none}
+  .colophon{color:#555}
+  .give-btn{border-color:#000;background:none!important;color:#000!important}
+  .give-btn.primary .handle,.give-btn .handle{color:#555!important}
+  .movement{page-break-inside:avoid;padding:1.1rem 0}
+  .reveal{opacity:1;transform:none}
+}
+</style>
+</head>
+<body>
+
+<nav class="bar" aria-label="Service sections">
+  <div class="bar-top">
+    <img class="bar-crest" src="assets/crest-navy.png" alt="" aria-hidden="true">
+    <span class="bar-name">Dream Church</span>
+    <span class="bar-date" id="barDate"></span>
+  </div>
+  <div class="chips" id="chips">
+    <div class="chips-inner" id="chipsInner"></div>
+  </div>
+</nav>
+
+<main id="app" class="wrap">
+  <p class="fallback">Loading this Sunday&rsquo;s service&hellip;</p>
+</main>
+
+<footer>
+  <div class="wrap">
+    <img class="footer-lockup" src="assets/lockup-white.png" alt="Dream Church">
+    <p class="vision" id="vision"></p>
+    <p class="connect-label">Connect with us</p>
+    <div class="socials" id="socials"></div>
+    <p class="colophon" id="colophon"></p>
+  </div>
+</footer>
+
+<script src="config.js"></script>
+<script src="week.js"></script>
+<script>
+(function(){
+  "use strict";
+
+  var app = document.getElementById("app");
+
+  function esc(s){
+    return String(s == null ? "" : s)
+      .replace(/&/g,"&amp;").replace(/</g,"&lt;")
+      .replace(/>/g,"&gt;").replace(/"/g,"&quot;");
+  }
+  function has(v){
+    if (v == null) return false;
+    if (Array.isArray(v)) return v.length > 0;
+    if (typeof v === "string") return v.trim() !== "";
+    return true;
+  }
+
+  if (typeof WEEK === "undefined" || typeof SITE === "undefined"){
+    app.innerHTML = '<p class="fallback">This week&rsquo;s service isn&rsquo;t posted yet. Check back before Sunday.</p>';
+    return;
+  }
+
+  /* ---------- masthead ---------- */
+  var html = "";
+  html += '<header class="masthead reveal">';
+  html += '<img class="masthead-crest" src="assets/crest-navy.png" alt="Dream Church">';
+  if (has(WEEK.date)) html += '<p class="eyebrow">' + esc(WEEK.date) + '</p>';
+  if (has(WEEK.season)) html += '<p class="season">' + esc(WEEK.season) + '</p>';
+  html += '<h1>' + esc(WEEK.title || "This Sunday") + '</h1>';
+  html += '<div class="masthead-rule"></div>';
+  if (has(WEEK.preacher)) html += '<p class="preacher">' + esc(WEEK.preacher) + '</p>';
+  html += '</header>';
+
+  var sections = [];
+  var n = 0;
+
+  function open(id, label){
+    n++;
+    sections.push({ id: id, label: label });
+    return '<section class="movement" id="' + id + '" aria-labelledby="h-' + id + '">' +
+           '<div class="movement-head"><div class="arch"><span>' + n + '</span></div>' +
+           '<h2 id="h-' + id + '">' + esc(label) + '</h2></div>';
+  }
+
+  /* ---------- psalm ---------- */
+  if (WEEK.psalm && has(WEEK.psalm.verses)){
+    html += open("psalm", "The Psalm");
+    if (has(WEEK.psalm.reference)) html += '<p class="reference">' + esc(WEEK.psalm.reference) + '</p>';
+    if (has(WEEK.psalm.rubric))    html += '<p class="rubric">' + esc(WEEK.psalm.rubric) + '</p>';
+    html += '<ol class="psalm">';
+    WEEK.psalm.verses.forEach(function(v){
+      html += '<li><span class="vn">' + esc(v.n) + '</span><p class="vt">' + esc(v.a) +
+              '<span class="star">*</span><span class="half-b">' + esc(v.b) + '</span></p></li>';
+    });
+    html += '</ol>';
+    if (has(WEEK.psalm.source)) html += '<p class="song-credit">' + esc(WEEK.psalm.source) + '</p>';
+    html += '</section>';
+  }
+
+  /* ---------- songs ---------- */
+  if (has(WEEK.songs)){
+    html += open("songs", "Songs");
+    WEEK.songs.forEach(function(s, i){
+      html += '<article class="song">';
+      html += '<p class="song-n">' + (i + 1) + ' of ' + WEEK.songs.length + '</p>';
+      html += '<h3>' + esc(s.title) + '</h3>';
+      if (has(s.author)) html += '<p class="song-meta">' + esc(s.author) + '</p>';
+      if (has(s.lyrics)){
+        html += '<div class="lyrics">';
+        s.lyrics.forEach(function(b){
+          html += '<div class="lyric-block">';
+          if (has(b.label)) html += '<p class="lyric-label">' + esc(b.label) + '</p>';
+          html += '<p class="lyric-lines">' + (b.lines || []).map(esc).join("<br>") + '</p>';
+          html += '</div>';
+        });
+        html += '</div>';
+      }
+      if (has(s.link)) html += '<a class="song-link" href="' + esc(s.link) + '" target="_blank" rel="noopener">Listen</a>';
+      var credit = [];
+      if (has(s.copyright)) credit.push(esc(s.copyright));
+      if (has(s.ccliSong)) credit.push("CCLI Song #" + esc(s.ccliSong));
+      if (credit.length) html += '<p class="song-credit">' + credit.join("<br>") + '</p>';
+      html += '</article>';
+    });
+    html += '</section>';
+  }
+
+  /* ---------- announcements ---------- */
+  if (has(WEEK.announcements)){
+    html += open("announcements", "Announcements");
+    WEEK.announcements.forEach(function(a){
+      html += '<div class="note-item"><h3>' + esc(a.title) + '</h3>';
+      if (has(a.body)) html += '<p>' + esc(a.body) + '</p>';
+      html += '</div>';
+    });
+    html += '</section>';
+  }
+
+  /* ---------- giving ---------- */
+  if (has(SITE.give)){
+    html += open("giving", "Giving");
+    if (has(SITE.givingRubric)) html += '<p class="give-note">' + esc(SITE.givingRubric) + '</p>';
+    html += '<div class="give-stack">';
+    SITE.give.forEach(function(g){
+      html += '<a class="give-btn' + (g.primary ? " primary" : "") + '" href="' + esc(g.url) +
+              '" target="_blank" rel="noopener">' +
+              '<span class="label">' + esc(g.label) + '</span>' +
+              (has(g.handle) ? '<span class="handle">' + esc(g.handle) + '</span>' : '') +
+              '</a>';
+    });
+    html += '</div></section>';
+  }
+
+  /* ---------- prayer ---------- */
+  if (WEEK.collect && has(WEEK.collect.text)){
+    html += open("prayer", "Prayer");
+    if (has(WEEK.collect.title))  html += '<p class="reference">' + esc(WEEK.collect.title) + '</p>';
+    if (has(WEEK.collect.rubric)) html += '<p class="rubric">' + esc(WEEK.collect.rubric) + '</p>';
+    html += '<p class="collect">' + esc(WEEK.collect.text) + '<span class="amen">Amen.</span></p>';
+    if (has(WEEK.collect.source)) html += '<p class="song-credit">' + esc(WEEK.collect.source) + '</p>';
+    html += '</section>';
+  }
+
+  /* ---------- sermon ---------- */
+  if (WEEK.sermon && (has(WEEK.sermon.readings) || has(WEEK.sermon.title))){
+    html += open("sermon", "Sermon");
+    if (has(WEEK.sermon.title)) html += '<h3 class="sermon-title">' + esc(WEEK.sermon.title) + '</h3>';
+    if (has(WEEK.sermon.rubric)) html += '<p class="rubric">' + esc(WEEK.sermon.rubric) + '</p>';
+    (WEEK.sermon.readings || []).forEach(function(r){
+      html += '<div class="reading"><p class="reference">' + esc(r.reference) + '</p>';
+      if (has(r.text)) html += '<p>' + esc(r.text) + '</p>';
+      html += '</div>';
+    });
+    html += '</section>';
+  }
+
+  /* ---------- sending ---------- */
+  if (WEEK.sending && has(WEEK.sending.text)){
+    html += open("sending", "Sending");
+    if (has(WEEK.sending.rubric)) html += '<p class="rubric">' + esc(WEEK.sending.rubric) + '</p>';
+    html += '<p class="collect">' + esc(WEEK.sending.text) + '</p>';
+    html += '</section>';
+  }
+
+  /* ---------- closing mark ---------- */
+  html += '<div class="amen-mark"><img src="assets/crest-navy.png" alt="">' +
+          '<p>' + esc(SITE.closingMark || "Go in peace") + '</p></div>';
+
+  app.innerHTML = html;
+
+  /* ---------- chips ---------- */
+  var chipsInner = document.getElementById("chipsInner");
+  chipsInner.innerHTML = sections.map(function(s){
+    return '<a class="chip" href="#' + s.id + '" data-target="' + s.id + '">' + esc(s.label) + '</a>';
+  }).join("");
+
+  /* ---------- bar date ---------- */
+  document.getElementById("barDate").textContent = WEEK.date || "";
+
+  /* ---------- footer ---------- */
+  document.getElementById("vision").textContent = SITE.vision || "";
+  document.getElementById("socials").innerHTML = (SITE.social || []).map(function(s){
+    return '<a class="social" href="' + esc(s.url) + '" target="_blank" rel="noopener">' + esc(s.label) + '</a>';
+  }).join("");
+
+  var col = [];
+  if (SITE.churchName) col.push(esc(SITE.churchName) + (SITE.city ? " &middot; " + esc(SITE.city) : ""));
+  if (SITE.address) col.push(esc(SITE.address));
+  if (SITE.ccliLicense) col.push(esc(SITE.ccliLicense));
+  if (SITE.textNote) col.push(esc(SITE.textNote));
+  document.getElementById("colophon").innerHTML = col.join("<br>");
+
+  /* ---------- scroll spy ---------- */
+  var chips = Array.prototype.slice.call(document.querySelectorAll(".chip"));
+  var track = document.getElementById("chips");
+  var current = null;
+
+  function setActive(id){
+    if (id === current) return;
+    current = id;
+    chips.forEach(function(c){
+      var on = c.dataset.target === id;
+      c.setAttribute("aria-current", on ? "true" : "false");
+      if (on && track.scrollWidth > track.clientWidth){
+        var left = c.offsetLeft - (track.clientWidth - c.offsetWidth) / 2;
+        track.scrollTo({ left: Math.max(0, left), behavior: "smooth" });
+      }
+    });
+  }
+
+  if ("IntersectionObserver" in window){
+    var io = new IntersectionObserver(function(entries){
+      var visible = entries.filter(function(e){ return e.isIntersecting; });
+      if (visible.length){
+        visible.sort(function(a, b){ return a.boundingClientRect.top - b.boundingClientRect.top; });
+        setActive(visible[0].target.id);
+      }
+    }, { rootMargin: "-42% 0px -50% 0px", threshold: 0 });
+
+    sections.forEach(function(s){
+      var el = document.getElementById(s.id);
+      if (el) io.observe(el);
+    });
+  }
+  if (sections.length) setActive(sections[0].id);
+})();
+</script>
+</body>
+</html>
