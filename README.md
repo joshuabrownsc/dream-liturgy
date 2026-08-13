@@ -1,7 +1,7 @@
 # Dream Church — Weekly Liturgy
 
 A one-page, mobile-first follow-along for Sunday mornings at
-liturgy.dreamcolumbia.com. Static files, hosted free on GitHub Pages.
+service.dreamcolumbia.com. Static files, hosted free on GitHub Pages.
 
 ---
 
