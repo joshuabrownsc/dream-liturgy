@@ -15,13 +15,17 @@ const SITE = {
   // Small line printed above the footer at the very end of the service.
   closingMark: "Go in peace",
 
+  // Printed directly under the logo in the footer.
+  dismissal: "Go in peace to love and serve the Lord.",
+
   // Optional italic line above the giving buttons. Set to "" to hide it.
-  givingRubric: "Give as you are able, and never out of guilt. Everything given here stays here and does the work of this church.",
+  givingRubric: "Let us with gladness present the offerings and gifts of our life and labor to the Lord.",
 
   give: [
     { label: "Give online", handle: "dreamcolumbia.com", url: "https://www.dreamcolumbia.com/give", primary: true },
-    { label: "Venmo",       handle: "@dreamchurchcola",  url: "https://venmo.com/dreamchurchcola" },
-    { label: "Cash App",    handle: "$dreamchurchcola",  url: "https://cash.app/dreamchurchcola" }
+    { label: "Venmo",       handle: "@dreamchurchcola",  url: "https://venmo.com/dreamchurchcola",
+      appUrl: "venmo://paycharge?txn=pay&recipients=dreamchurchcola" },
+    { label: "Cash App",    handle: "$dreamchurchcola",  url: "https://cash.app/$dreamchurchcola" }
   ],
 
   social: [
@@ -30,9 +34,6 @@ const SITE = {
     { label: "YouTube",   url: "https://youtube.com/dreamchurchcola" },
     { label: "Website",   url: "https://dreamcolumbia.com" }
   ],
-
-  // Required by CCLI whenever lyrics are displayed online. Put your real number here.
-  ccliLicense: "CCLI Copy and Streaming License #0000000",
 
   // Credit line for the liturgical texts.
   textNote: "Psalms and Collects from The Book of Common Prayer (1979)."

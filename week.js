@@ -51,16 +51,13 @@ const WEEK = {
 
   /* --------------------------------------------------------
      SONGS
-     "lyrics" is optional. If you only want titles, delete the
-     whole lyrics block for that song.
-     If you print lyrics, CCLI requires the copyright line and
-     the song number, so fill those in.
+     Just a title, and optionally the lyrics you want printed.
+     "lyrics" is optional — delete the whole lyrics block for a
+     song and only the title will show.
      -------------------------------------------------------- */
   songs: [
     {
       title: "Come Thou Fount of Every Blessing",
-      author: "Robert Robinson, 1758",
-      copyright: "Public Domain",
       lyrics: [
         { label: "Verse 1", lines: [
           "Come, thou fount of every blessing,",
@@ -77,16 +74,10 @@ const WEEK = {
       ]
     },
     {
-      title: "Holy, Holy, Holy",
-      author: "Reginald Heber, 1826",
-      copyright: "Public Domain"
+      title: "Holy, Holy, Holy"
     },
     {
-      title: "Song Title Here",
-      author: "Writer names here",
-      copyright: "© Year Publisher",
-      ccliSong: "0000000",
-      link: "https://youtube.com/"
+      title: "Song Title Here"
     }
   ],
 
@@ -122,7 +113,6 @@ const WEEK = {
      -------------------------------------------------------- */
   sermon: {
     title: "The Fire He Came to Kindle",
-    rubric: "Read aloud before the sermon.",
     readings: [
       { reference: "Luke 12:49–56" },
       { reference: "Hebrews 11:29 – 12:2" }
@@ -133,10 +123,13 @@ const WEEK = {
   /* --------------------------------------------------------
      SENDING (optional)
      Delete this whole block, or set it to null, to hide it.
+     "response" is the spoken line under the blessing, printed
+     in red. Leave it out to hide it.
      -------------------------------------------------------- */
   sending: {
     rubric: "Spoken with hands raised over the room.",
-    text: "Go as those who are already loved. Nothing you do this week will make God love you more, and nothing you do will make God love you less. Go and live like it is true, because it is."
+    text: "The Lord bless you and keep you; the Lord make his face to shine upon you, and be gracious to you; the Lord lift up his countenance upon you, and give you peace.",
+    response: "In the name of the Father, Son, and Holy Spirit, Amen."
   }
 
 };

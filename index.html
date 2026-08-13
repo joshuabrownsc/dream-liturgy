@@ -109,10 +109,9 @@ a{color:inherit}
   height:var(--bar);
   max-width:var(--col);margin:0 auto;padding:0 var(--pad);
 }
-.bar-crest{width:19px;height:auto;flex:none}
 .bar-name{
-  font-family:var(--ui);font-weight:500;
-  font-size:.66rem;letter-spacing:.2em;text-transform:uppercase;
+  font-family:var(--ui);font-weight:700;
+  font-size:.92rem;letter-spacing:.06em;text-transform:uppercase;
   color:var(--ink);
 }
 .bar-date{
@@ -131,11 +130,11 @@ a{color:inherit}
 }
 .chips::-webkit-scrollbar{display:none}
 .chips-inner{
-  display:flex;gap:.4rem;justify-content:center;
+  display:flex;gap:.4rem;
   padding:.55rem var(--pad);
-  max-width:var(--col);margin:0 auto;
-  width:max-content;min-width:100%;
+  width:max-content;
 }
+.chips-inner.fits{margin:0 auto}
 .chip{
   font-family:var(--ui);font-weight:500;
   font-size:.66rem;letter-spacing:.13em;text-transform:uppercase;
@@ -206,12 +205,13 @@ a{color:inherit}
   background:var(--ink);
   border-radius:13px 13px 2px 2px;
   display:flex;align-items:center;justify-content:center;
-  padding-top:.35rem;
 }
 .arch span{
-  font-family:var(--ui);font-weight:500;
-  font-size:.68rem;letter-spacing:.04em;
+  font-family:var(--ui);font-weight:700;
+  font-size:.72rem;letter-spacing:.02em;line-height:1;
   color:var(--paper);
+  display:block;
+  transform:translateY(1px);
 }
 .movement-head h2{
   font-family:var(--ui);font-weight:500;
@@ -228,6 +228,7 @@ a{color:inherit}
   color:var(--rubric);
   margin:0 0 1.15rem;
 }
+.rubric.response{margin:1.35rem 0 0}
 .reference{
   font-family:var(--ui);font-weight:500;
   font-size:.78rem;letter-spacing:.13em;text-transform:uppercase;
@@ -312,7 +313,7 @@ a{color:inherit}
 .note-item + .note-item{border-top:1px solid var(--rule);padding-top:1.15rem}
 .note-item:last-of-type{padding-bottom:0}
 .note-item h3{
-  font-family:var(--ui);font-weight:500;
+  font-family:var(--ui);font-weight:700;
   font-size:.94rem;letter-spacing:.01em;
   margin:0 0 .25rem;
 }
@@ -402,7 +403,13 @@ footer{
   padding:3.5rem 0 calc(2.75rem + env(safe-area-inset-bottom));
   text-align:center;
 }
-.footer-lockup{width:180px;margin:0 auto 2rem}
+.footer-lockup{width:180px;margin:0 auto 1.5rem}
+.dismissal{
+  font-family:var(--body);font-style:italic;
+  font-size:1rem;line-height:1.5;
+  color:rgba(255,255,255,.72);
+  margin:0 auto 1.75rem;max-width:22rem;
+}
 .vision{
   font-family:var(--body);font-size:1.02rem;line-height:1.6;
   color:rgba(255,255,255,.86);
@@ -482,6 +489,7 @@ html{scroll-behavior:smooth}
   body{font-size:11pt;color:#000}
   footer{background:none;color:#000;padding:1.5rem 0 0;border-top:1px solid #999}
   .footer-lockup{display:none}
+  .dismissal{color:#000}
   .vision{color:#000}
   .socials,.connect-label{display:none}
   .colophon{color:#555}
@@ -496,7 +504,6 @@ html{scroll-behavior:smooth}
 
 <nav class="bar" aria-label="Service sections">
   <div class="bar-top">
-    <img class="bar-crest" src="assets/crest-navy.png" alt="" aria-hidden="true">
     <span class="bar-name">Dream Church</span>
     <span class="bar-date" id="barDate"></span>
   </div>
@@ -512,6 +519,7 @@ html{scroll-behavior:smooth}
 <footer>
   <div class="wrap">
     <img class="footer-lockup" src="assets/lockup-white.png" alt="Dream Church">
+    <p class="dismissal" id="dismissal"></p>
     <p class="vision" id="vision"></p>
     <p class="connect-label">Connect with us</p>
     <div class="socials" id="socials"></div>
@@ -550,7 +558,6 @@ html{scroll-behavior:smooth}
   html += '<img class="masthead-crest" src="assets/crest-navy.png" alt="Dream Church">';
   if (has(WEEK.date)) html += '<p class="eyebrow">' + esc(WEEK.date) + '</p>';
   if (has(WEEK.season)) html += '<p class="season">' + esc(WEEK.season) + '</p>';
-  html += '<h1>' + esc(WEEK.title || "This Sunday") + '</h1>';
   html += '<div class="masthead-rule"></div>';
   if (has(WEEK.preacher)) html += '<p class="preacher">' + esc(WEEK.preacher) + '</p>';
   html += '</header>';
@@ -574,7 +581,7 @@ html{scroll-behavior:smooth}
     html += '<ol class="psalm">';
     WEEK.psalm.verses.forEach(function(v){
       html += '<li><span class="vn">' + esc(v.n) + '</span><p class="vt">' + esc(v.a) +
-              '<span class="star">*</span><span class="half-b">' + esc(v.b) + '</span></p></li>';
+              '<span class="half-b">' + esc(v.b) + '</span></p></li>';
     });
     html += '</ol>';
     if (has(WEEK.psalm.source)) html += '<p class="song-credit">' + esc(WEEK.psalm.source) + '</p>';
@@ -588,7 +595,6 @@ html{scroll-behavior:smooth}
       html += '<article class="song">';
       html += '<p class="song-n">' + (i + 1) + ' of ' + WEEK.songs.length + '</p>';
       html += '<h3>' + esc(s.title) + '</h3>';
-      if (has(s.author)) html += '<p class="song-meta">' + esc(s.author) + '</p>';
       if (has(s.lyrics)){
         html += '<div class="lyrics">';
         s.lyrics.forEach(function(b){
@@ -599,11 +605,6 @@ html{scroll-behavior:smooth}
         });
         html += '</div>';
       }
-      if (has(s.link)) html += '<a class="song-link" href="' + esc(s.link) + '" target="_blank" rel="noopener">Listen</a>';
-      var credit = [];
-      if (has(s.copyright)) credit.push(esc(s.copyright));
-      if (has(s.ccliSong)) credit.push("CCLI Song #" + esc(s.ccliSong));
-      if (credit.length) html += '<p class="song-credit">' + credit.join("<br>") + '</p>';
       html += '</article>';
     });
     html += '</section>';
@@ -626,8 +627,9 @@ html{scroll-behavior:smooth}
     if (has(SITE.givingRubric)) html += '<p class="give-note">' + esc(SITE.givingRubric) + '</p>';
     html += '<div class="give-stack">';
     SITE.give.forEach(function(g){
-      html += '<a class="give-btn' + (g.primary ? " primary" : "") + '" href="' + esc(g.url) +
-              '" target="_blank" rel="noopener">' +
+      html += '<a class="give-btn' + (g.primary ? " primary" : "") + '" href="' + esc(g.url) + '"' +
+              (has(g.appUrl) ? ' data-app="' + esc(g.appUrl) + '"' : '') +
+              ' rel="noopener">' +
               '<span class="label">' + esc(g.label) + '</span>' +
               (has(g.handle) ? '<span class="handle">' + esc(g.handle) + '</span>' : '') +
               '</a>';
@@ -649,12 +651,12 @@ html{scroll-behavior:smooth}
   if (WEEK.sermon && (has(WEEK.sermon.readings) || has(WEEK.sermon.title))){
     html += open("sermon", "Sermon");
     if (has(WEEK.sermon.title)) html += '<h3 class="sermon-title">' + esc(WEEK.sermon.title) + '</h3>';
-    if (has(WEEK.sermon.rubric)) html += '<p class="rubric">' + esc(WEEK.sermon.rubric) + '</p>';
     (WEEK.sermon.readings || []).forEach(function(r){
       html += '<div class="reading"><p class="reference">' + esc(r.reference) + '</p>';
       if (has(r.text)) html += '<p>' + esc(r.text) + '</p>';
       html += '</div>';
     });
+    if (has(WEEK.sermon.readings)) html += '<p class="rubric response">The Word of the Lord, thanks be to God.</p>';
     html += '</section>';
   }
 
@@ -663,6 +665,7 @@ html{scroll-behavior:smooth}
     html += open("sending", "Sending");
     if (has(WEEK.sending.rubric)) html += '<p class="rubric">' + esc(WEEK.sending.rubric) + '</p>';
     html += '<p class="collect">' + esc(WEEK.sending.text) + '</p>';
+    if (has(WEEK.sending.response)) html += '<p class="rubric response">' + esc(WEEK.sending.response) + '</p>';
     html += '</section>';
   }
 
@@ -682,6 +685,7 @@ html{scroll-behavior:smooth}
   document.getElementById("barDate").textContent = WEEK.date || "";
 
   /* ---------- footer ---------- */
+  document.getElementById("dismissal").textContent = SITE.dismissal || "";
   document.getElementById("vision").textContent = SITE.vision || "";
   document.getElementById("socials").innerHTML = (SITE.social || []).map(function(s){
     return '<a class="social" href="' + esc(s.url) + '" target="_blank" rel="noopener">' + esc(s.label) + '</a>';
@@ -690,27 +694,72 @@ html{scroll-behavior:smooth}
   var col = [];
   if (SITE.churchName) col.push(esc(SITE.churchName) + (SITE.city ? " &middot; " + esc(SITE.city) : ""));
   if (SITE.address) col.push(esc(SITE.address));
-  if (SITE.ccliLicense) col.push(esc(SITE.ccliLicense));
   if (SITE.textNote) col.push(esc(SITE.textNote));
   document.getElementById("colophon").innerHTML = col.join("<br>");
+
+  /* ---------- app deep links (Venmo, etc.) ---------- */
+  // Try the native app first. If it isn't installed, nothing happens and
+  // we fall through to the normal web link a moment later. If the app
+  // *does* open, the page gets backgrounded and the fallback never fires.
+  Array.prototype.slice.call(document.querySelectorAll(".give-btn[data-app]")).forEach(function(a){
+    a.addEventListener("click", function(e){
+      e.preventDefault();
+      var webUrl = a.getAttribute("href");
+      var appUrl = a.getAttribute("data-app");
+      var fellBack = false;
+      function toWeb(){
+        if (fellBack || document.hidden) return;
+        fellBack = true;
+        window.location.href = webUrl;
+      }
+      document.addEventListener("visibilitychange", function onHide(){
+        if (document.hidden){
+          fellBack = true;
+          document.removeEventListener("visibilitychange", onHide);
+        }
+      });
+      window.location.href = appUrl;
+      setTimeout(toWeb, 900);
+    });
+  });
 
   /* ---------- scroll spy ---------- */
   var chips = Array.prototype.slice.call(document.querySelectorAll(".chip"));
   var track = document.getElementById("chips");
   var current = null;
 
-  function setActive(id){
+  function setActive(id, skipScroll){
     if (id === current) return;
     current = id;
     chips.forEach(function(c){
       var on = c.dataset.target === id;
       c.setAttribute("aria-current", on ? "true" : "false");
-      if (on && track.scrollWidth > track.clientWidth){
+      if (on && !skipScroll && track.scrollWidth > track.clientWidth){
         var left = c.offsetLeft - (track.clientWidth - c.offsetWidth) / 2;
         track.scrollTo({ left: Math.max(0, left), behavior: "smooth" });
       }
     });
   }
+
+  // Start pinned to the left edge so the first chip is never clipped,
+  // then let real scrolling take over from there.
+  track.scrollLeft = 0;
+  if (sections.length) setActive(sections[0].id, true);
+
+  // Center the row only when every chip already fits without scrolling
+  // (typically desktop). On narrow screens it stays left-aligned so the
+  // first chip is never pushed off-frame.
+  var chipsInner = document.getElementById("chipsInner");
+  function updateChipAlignment(){
+    if (chipsInner.scrollWidth <= track.clientWidth){
+      chipsInner.classList.add("fits");
+      track.scrollLeft = 0;
+    } else {
+      chipsInner.classList.remove("fits");
+    }
+  }
+  updateChipAlignment();
+  window.addEventListener("resize", updateChipAlignment);
 
   if ("IntersectionObserver" in window){
     var io = new IntersectionObserver(function(entries){
@@ -726,7 +775,6 @@ html{scroll-behavior:smooth}
       if (el) io.observe(el);
     });
   }
-  if (sections.length) setActive(sections[0].id);
 })();
 </script>
 </body>
