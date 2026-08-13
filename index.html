@@ -349,6 +349,13 @@ a{color:inherit}
 }
 .give-btn.primary{background:var(--ink);color:var(--paper);}
 .give-btn.primary .handle{color:rgba(255,255,255,.6)}
+.give-fallback{
+  display:block;
+  font-family:var(--ui);font-size:.68rem;letter-spacing:.02em;
+  color:var(--faint);text-decoration:underline;text-underline-offset:2px;
+  text-align:center;
+  margin:-.15rem 0 .15rem;
+}
 @media (hover:hover){
   .give-btn:hover{background:var(--ink);color:var(--paper)}
   .give-btn:hover .handle{color:rgba(255,255,255,.6)}
@@ -627,12 +634,16 @@ html{scroll-behavior:smooth}
     if (has(SITE.givingRubric)) html += '<p class="give-note">' + esc(SITE.givingRubric) + '</p>';
     html += '<div class="give-stack">';
     SITE.give.forEach(function(g){
-      html += '<a class="give-btn' + (g.primary ? " primary" : "") + '" href="' + esc(g.url) + '"' +
-              (has(g.appUrl) ? ' data-app="' + esc(g.appUrl) + '"' : '') +
-              ' rel="noopener">' +
+      var href = has(g.appUrl) ? g.appUrl : g.url;
+      html += '<a class="give-btn' + (g.primary ? " primary" : "") + '" href="' + esc(href) + '" rel="noopener">' +
               '<span class="label">' + esc(g.label) + '</span>' +
               (has(g.handle) ? '<span class="handle">' + esc(g.handle) + '</span>' : '') +
               '</a>';
+      if (has(g.appUrl)){
+        html += '<a class="give-fallback" href="' + esc(g.url) + '" target="_blank" rel="noopener">' +
+                'No ' + esc(g.label) + ' app? Give in the browser instead' +
+                '</a>';
+      }
     });
     html += '</div></section>';
   }
@@ -696,32 +707,6 @@ html{scroll-behavior:smooth}
   if (SITE.address) col.push(esc(SITE.address));
   if (SITE.textNote) col.push(esc(SITE.textNote));
   document.getElementById("colophon").innerHTML = col.join("<br>");
-
-  /* ---------- app deep links (Venmo, etc.) ---------- */
-  // Try the native app first. If it isn't installed, nothing happens and
-  // we fall through to the normal web link a moment later. If the app
-  // *does* open, the page gets backgrounded and the fallback never fires.
-  Array.prototype.slice.call(document.querySelectorAll(".give-btn[data-app]")).forEach(function(a){
-    a.addEventListener("click", function(e){
-      e.preventDefault();
-      var webUrl = a.getAttribute("href");
-      var appUrl = a.getAttribute("data-app");
-      var fellBack = false;
-      function toWeb(){
-        if (fellBack || document.hidden) return;
-        fellBack = true;
-        window.location.href = webUrl;
-      }
-      document.addEventListener("visibilitychange", function onHide(){
-        if (document.hidden){
-          fellBack = true;
-          document.removeEventListener("visibilitychange", onHide);
-        }
-      });
-      window.location.href = appUrl;
-      setTimeout(toWeb, 900);
-    });
-  });
 
   /* ---------- scroll spy ---------- */
   var chips = Array.prototype.slice.call(document.querySelectorAll(".chip"));
