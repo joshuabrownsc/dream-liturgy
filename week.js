@@ -14,9 +14,9 @@ const WEEK = {
   /* --------------------------------------------------------
      THE HEADER
      -------------------------------------------------------- */
-  date: "August 16, 2026",
-  season: "The Twelfth Sunday after Pentecost",
-  title: "A High View of Church",
+  date: "August 23, 2026",
+  season: "The Thirteenth Sunday after Pentecost",
+  title: "Keepers of the Flame",
   preacher: "Pastor Joshua Brown",
 
 
@@ -26,23 +26,30 @@ const WEEK = {
      half (b). The asterisk between them is added for you.
      -------------------------------------------------------- */
 psalm: {
-    reference: "Psalm 67",
+    reference: "Psalm 138",
+    rubric: "Read together, the whole room, unhurried.",
+    verses:   psalm: {
+    reference: "Psalm 138",
     rubric: "Read together, the whole room, unhurried.",
     verses: [
-      { n: 1, a: "May God be merciful to us and bless us,",
-             b: "show us the light of his countenance and come to us." },
-      { n: 2, a: "Let your ways be known upon earth,",
-             b: "your saving health among all nations." },
-      { n: 3, a: "Let the peoples praise you, O God;",
-             b: "let all the peoples praise you." },
-      { n: 4, a: "Let the nations be glad and sing for joy,",
-             b: "for you judge the peoples with equity and guide all the nations upon earth." },
-      { n: 5, a: "Let the peoples praise you, O God;",
-             b: "let all the peoples praise you." },
-      { n: 6, a: "The earth has brought forth her increase;",
-             b: "may God, our own God, give us his blessing." },
-      { n: 7, a: "May God give us his blessing,",
-             b: "and may all the ends of the earth stand in awe of him." }
+      { n: 1, a: "I will give thanks to you, O Lord, with my whole heart;",
+             b: "before the gods I will sing your praise." },
+      { n: 2, a: "I will bow down toward your holy temple and praise your Name,",
+             b: "because of your love and faithfulness;" },
+      { n: 3, a: "For you have glorified your Name",
+             b: "and your word above all things." },
+      { n: 4, a: "When I called, you answered me;",
+             b: "you increased my strength within me." },
+      { n: 5, a: "All the kings of the earth will praise you, O Lord,",
+             b: "when they have heard the words of your mouth." },
+      { n: 6, a: "They will sing of the ways of the Lord,",
+             b: "that great is the glory of the Lord." },
+      { n: 7, a: "Though the Lord be high, he cares for the lowly;",
+             b: "he perceives the haughty from afar." },
+      { n: 8, a: "Though I walk in the midst of trouble, you keep me safe;",
+             b: "you stretch forth your hand against the fury of my enemies; your right hand shall save me." },
+      { n: 9, a: "The Lord will make good his purpose for me;",
+             b: "O Lord, your love endures for ever; do not abandon the works of your hands." }
     ]
   },
 
