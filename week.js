@@ -62,167 +62,83 @@ psalm: {
      -------------------------------------------------------- */
   songs: [
  {
-      title: "Carpenter Boy",
+      title: "Plans",
       lyrics: [
         { label: "Verse 1", lines: [
-          "Carpenter Boy of Bethlehem",
-          "Son of God made Son of Man",
-          "Finished his days with splintered hands",
-          "A taste of what would come ahead"
-        ]},
-        { label: "Pre-chorus", lines: [
-          "Do you think that when he hung there",
-          "The smell of wood reminded him of home?",
-          "Did the sound of nails meeting wood",
-          "Remind him of a time when he was not alone?"
+          "I've got a hope and a future",
+          "Cause that is the promise you made",
+          "When it's hard to see, I'll choose to believe",
+          "You see what I haven't yet",
+          "When I'm afraid you remind me",
+          "I'm in your capable hands",
+          "I look back and notice, it's you who's been closest",
+          "To help me to never forget"
         ]},
         { label: "Chorus", lines: [
-          "Behold him",
-          "The one who left his kingdom to be broken",
-          "The one who put the cross upon his shoulders",
-          "The king of kings has come and made me whole"
+          "You have good plans",
+          "If it's not good then you're not finished yet",
+          "You have good plans",
+          "It's true in the palace, it's true in the pit",
+          "If you're in control then I'm lifting my hands",
+          "You have good good plans"
         ]},
         { label: "Verse 2", lines: [
-          "Carpenter Boy, the perfect lamb",
-          "Trusting in his father's plan",
-          "No matter what would come ahead",
-          "He'd be faithful to the very end"
-        ]},
-        { label: "Chorus", lines: [
-          "Behold him",
-          "The one who left his kingdom to be broken",
-          "The one who put the cross upon his shoulders",
-          "The king of kings has come and made me whole",
-          "Praise the Savior",
-          "Who died upon a tree that he created",
-          "He carved my name, it's written up in heaven",
-          "The Carpenter is building us a home"
+          "I know that good things are coming",
+          "Cause that is the promise you made",
+          "The times that are tested still come with a blessing",
+          "And grace after grace after grace"
         ]},
         { label: "Bridge", lines: [
-          "He's building us a home"
-        ]},
-        { label: "Pre-chorus Two", lines: [
-          "When his body gave its last breath",
-          "And death rejoiced and sang their victory",
-          "As his body laid in darkness",
-          "He seemed to be surrounded by defeat",
-          "But when that Son rose on that Sunday",
-          "The Light of the World had rolled away the stone",
-          "Oh, can you hear the heavens roaring",
-          "Singing, \"Holy is, Holy is the Lord!\"?"
-        ]}
-      ]
-    },
-    {
-      title: "The One You Love",
-      lyrics: [
-        { label: "Verse 1", lines: [
-          "I can be real with you",
-          "Say anything and not be afraid",
-          "You made me and you like what you made",
-          "You made me and you don't make mistakes",
-          "I can be real with you" 
-        ]},
-        { label: "Chorus", lines: [
-          "You take me just as I am",
-          "You choose me all over again",
-          "I am the one you love",
-          "I am the one you love",
-          "I don't have to prove anything",
-          "There's room at your table for me",
-          "I am the one you love",
-          "I am the one you love"
-        ]},
-        { label: "Verse 2", lines: [
-          "I know you're proud of me",
-          "Even when I don't think I deserve it",
-          "Yes, I am a perfect child",
-          "And I make my father smile",
-          "I know you're proud of me"
-        ]},
-        { label: "Chorus", lines: [
-          "You take me just as I am",
-          "You choose me all over again",
-          "I am the one you love",
-          "I am the one you love",
-          "I don't have to prove anything",
-          "There's room at your table for me",
-          "I am the one you love",
-          "I am the one you love"
-        ]},
-        { label: "Bridge", lines: [
-          "Your love your love never fails",
-          "Your love never fails"
+          "You're gonna lead me from glory to glory",
+          "You're not done writing the best of my story"
         ]},
       ]
     },
     {
-      title: "You Hold It All Together",
+      title: "Fear Is Not My Future",
       lyrics: [
         { label: "Verse 1", lines: [
-          "You come at the right time",
-          "When I least expect it never behind",
-          "So why would I be surprised",
-          "When you deliver every time"
-        ]},
-        { label: "Pre-chorus", lines: [
-          "On mountain tops you stay the same",
-          "In valleys low you never change"
+          "Let him turn it in your favor",
+          "Watch him work it for your good",
+          "He's not done with what he's started",
+          "He's not done until it's good"
         ]},
         { label: "Chorus", lines: [
-          "I believe that I will see",
-          "The goodness of the Lord",
-          "I'm confident as seasons change",
-          "Your faithfulness remains"
+          "Hello peace, hello joy, hello love",
+          "Hello strength, hello hope, it's a new horizon"
         ]},
         { label: "Verse 2", lines: [
-          "You go you go before me",
-          "to prepare the blessing you made a way",
-          "It's more than I could imagine",
-          "More than I can fathom or comprehend"
+          "If you're ready for a breakthrough",
+          "Just open up and just receive",
+          "Cause what he's pouring out is nothing",
+          "You've ever seen"
         ]},
         { label: "Bridge", lines: [
-          "God of my present, God of my future",
-          "You write my story, you hold it all together"
+          "Fear is not my future, you are",
+          "Sickness is not my story, you are",
+          "Heartbreak is not my home, you are",
+          "Death is not the end, you are"
         ]},
       ]
     },
-     {
-      title: "The Breastplate of Saint Patrick",
+    {
+      title: "Worthy of It All",
       lyrics: [
-        { label: "Verse 1", lines: [
-          "When my work takes me places I don't want to go",
-          "Christ before me",
-          "And my heart aches with sorrow as I hit the road",
-          "Christ be with me"
-        ]},
-        { label: "Verse 2", lines: [
-          "When the care of my family takes all that I have",
-          "Christ within me",
-          "When I'm worn and exhausted, ashamed that I'm mad",
-          "Christ defend me"
-        ]},
+        { label: "Verse", lines: [
+          "All the saints and angels",
+          "Bow before the throne",
+          "All the elders cast",
+          "Their crowns before the Lamb of God and sing"
         { label: "Chorus", lines: [
-          "I rise up today in a strength that is not my own",
-          "I'm held by the promise of God that I'm never alone"
+          "You're worthy of it all",
+          "You're worthy of it all",
+          "From you are all things",
+          "To you are all things",
+          "You deserve the glory"
         ]},
-        { label: "Verse 3", lines: [
-          "When I'm tossed to the side and I want to give up",
-          "Christ beside me",
-          "When I'm busting my tail but it's never enough",
-          "Christ beside me"
-        ]},
-        { label: "Verse 4", lines: [
-          "When I work hard but someone else gets the reward",
-          "God's eyes see me",
-          "And I ask for promotion and they shut the door",
-          "God's ears hear me"
-        ]},
-        { label: "Verse 5", lines: [
-          "When I climb the first steps toward a long held dream",
-          "Christ above me",
-          "And I leap out in faith and I hope to find wings",
-          "Christ beneath me"
+        { label: "Bridge", lines: [
+          "Day and night, night and day",
+          "Let incense arise"
         ]},
       ]
     },
@@ -235,11 +151,7 @@ psalm: {
      -------------------------------------------------------- */
   announcements: [
     { title: "Midweek This Tuesday at 7 PM",
-      body: "We will be continuing in Acts 6. Check GroupMe for all details." },
-{ title: "Fireflies Game | Saturday, August 22",
-      body: "We are going to the Columbia Fireflies game as a church for Faith and Family Night. Purchase tickets here:",
-      link: "https://www.gofevo.com/event/Dreamchurch2",
-      linkLabel: "Get Tickets" }
+      body: "We will be continuing in Acts 7 and 8. Check GroupMe for all details." },
   ],
 
 
@@ -249,9 +161,9 @@ psalm: {
      "Amen." is added for you at the end.
      -------------------------------------------------------- */
   collect: {
-    title: "The Collect for the Twelfth Sunday after Pentecost",
+    title: "The Collect for the Thirteenth Sunday after Pentecost",
     rubric: "Prayed together, out loud.",
-    text: "Almighty God, you have given your only Son to be for us a sacrifice for sin, and also an example of godly life: Give us grace to receive thankfully the fruits of his redeeming work, and to follow daily in the blessed steps of his most holy life; through Jesus Christ your Son our Lord, who lives and reigns with you and the Holy Spirit, one God, now and for ever. Amen."
+    text: "Grant, O merciful God, that your Church, being gathered together in unity by your Holy Spirit, may show forth your power among all peoples, to the glory of your Name; through Jesus Christ our Lord, who lives and reigns with you and the Holy Spirit, one God, for ever and ever. Amen."
   },
 
 
@@ -261,9 +173,9 @@ psalm: {
      reference on the screen.
      -------------------------------------------------------- */
   sermon: {
-    title: "A High View of Church",
+    title: "Keepers of the Flame",
     readings: [
-      { reference: "1 Corinthians 12:12-27 NRSV" },
+      { reference: "1 Peter 2:1-10 NRSV" },
     ]
   },
 
