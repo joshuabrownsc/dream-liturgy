@@ -25,10 +25,7 @@ const WEEK = {
      Each verse has a number, a first half (a), and a second
      half (b). The asterisk between them is added for you.
      -------------------------------------------------------- */
-psalm: {
-    reference: "Psalm 138",
-    rubric: "Read together, the whole room, unhurried.",
-    verses:   psalm: {
+  psalm: {
     reference: "Psalm 138",
     rubric: "Read together, the whole room, unhurried.",
     verses: [
@@ -129,6 +126,7 @@ psalm: {
           "Bow before the throne",
           "All the elders cast",
           "Their crowns before the Lamb of God and sing"
+        ]},
         { label: "Chorus", lines: [
           "You're worthy of it all",
           "You're worthy of it all",
