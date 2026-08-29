@@ -97,33 +97,58 @@ const WEEK = {
         ]},
       ]
     },
-    {
-      title: "Fear Is Not My Future",
+{
+      title: "Carpenter Boy",
       lyrics: [
         { label: "Verse 1", lines: [
-          "Let him turn it in your favor",
-          "Watch him work it for your good",
-          "He's not done with what he's started",
-          "He's not done until it's good"
+          "Carpenter Boy of Bethlehem",
+          "Son of God made Son of Man",
+          "Finished his days with splintered hands",
+          "A taste of what would come ahead"
+        ]},
+        { label: "PreChorus", lines: [
+          "Do you think that when he hung there",
+          "The smell of wood reminded him of home?",
+          "Did the sound of nails meeting wood",
+          "Remind him of a time when he was not alone?"
         ]},
         { label: "Chorus", lines: [
-          "Hello peace, hello joy, hello love",
-          "Hello strength, hello hope, it's a new horizon"
+          "Behold him",
+          "The one who left his kingdom to be broken",
+          "The one who put the cross upon his shoulders",
+          "The king of kings has come and made me whole"
         ]},
         { label: "Verse 2", lines: [
-          "If you're ready for a breakthrough",
-          "Just open up and just receive",
-          "Cause what he's pouring out is nothing",
-          "You've ever seen"
+          "Carpenter Boy, the perfect lamb",
+          "Trusting in his father's plan",
+          "No matter what would come ahead",
+          "He'd be faithful to the very end"
+        ]},
+        { label: "Chorus", lines: [
+          "Behold him",
+          "The one who left his kingdom to be broken",
+          "The one who put the cross upon his shoulders",
+          "The king of kings has come and made me whole",
+          "Praise the Savior",
+          "Who died upon a tree that he created",
+          "He carved my name, it's written up in heaven",
+          "The Carpenter is building us a home"
         ]},
         { label: "Bridge", lines: [
-          "Fear is not my future, you are",
-          "Sickness is not my story, you are",
-          "Heartbreak is not my home, you are",
-          "Death is not the end, you are"
+          "He's building us a home"
         ]},
+        { label: "PreChorus Two", lines: [
+          "When his body gave its last breath",
+          "And death rejoiced and sang their victory",
+          "As his body laid in darkness",
+          "He seemed to be surrounded by defeat",
+          "But when that Son rose on that Sunday",
+          "The Light of the World had rolled away the stone",
+          "Oh, can you hear the heavens roaring",
+          "Singing, \"Holy is, Holy is the Lord!\"?"
+        ]}
       ]
-    },
+    }
     {
       title: "Worthy of It All",
       lyrics: [
