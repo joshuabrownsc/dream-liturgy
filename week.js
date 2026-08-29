@@ -65,35 +65,37 @@ const WEEK = {
      -------------------------------------------------------- */
   songs: [
  {
-      title: "Plans",
+      title: "What a God",
       lyrics: [
         { label: "Verse 1", lines: [
-          "I've got a hope and a future",
-          "Cause that is the promise you made",
-          "When it's hard to see, I'll choose to believe",
-          "You see what I haven't yet",
-          "When I'm afraid you remind me",
-          "I'm in your capable hands",
-          "I look back and notice, it's you who's been closest",
-          "To help me to never forget"
+          "Who thought I'd find you at the lowest place?",
+          "Who thought you'd feel me in the crowd?",
+          "Who knew you make good of my mistakes?",
+          "You're nothing like I thought you were, you're better"
         ]},
         { label: "Chorus", lines: [
-          "You have good plans",
-          "If it's not good then you're not finished yet",
-          "You have good plans",
-          "It's true in the palace, it's true in the pit",
-          "If you're in control then I'm lifting my hands",
-          "You have good good plans"
+          "What a God, What a God"
         ]},
         { label: "Verse 2", lines: [
-          "I know that good things are coming",
-          "Cause that is the promise you made",
-          "The times that are tested still come with a blessing",
-          "And grace after grace after grace"
+          "I thought you'd show up for perfection",
+          "Cause what kind of God looks for the lost?",
+          "Then say it's over for a sinner",
+          "Although you say, "No it's not, no, it's not"",
+          "You say, "No it's not, no it's not""
         ]},
         { label: "Bridge", lines: [
-          "You're gonna lead me from glory to glory",
-          "You're not done writing the best of my story"
+          "If the highest place I reach is at your feet",
+          "Then I've done it all",
+          "If the best thing that I've seen is your glory",
+          "Then I've seen it all",
+          "Your love has changed my life, forever satisfied",
+          "God you are my everything",
+          "If one word is the only thing you speak",
+          "Then I've heard it all",
+          "If I feel your heart and never see your hand",
+          "I still have it all",
+          "No treasure of this life, could ever satisfy",
+          "God you are my everything"
         ]},
       ]
     },
@@ -150,24 +152,42 @@ const WEEK = {
       ]
     }
     {
-      title: "Worthy of It All",
+      title: "Home to Me",
       lyrics: [
-        { label: "Verse", lines: [
-          "All the saints and angels",
-          "Bow before the throne",
-          "All the elders cast",
-          "Their crowns before the Lamb of God and sing"
+        { label: "Verse 1", lines: [
+          "Like an unborn baby",
+          "In a mother's womb",
+          "Before my lungs could breathe",
+          "I was alive in you",
+          "Before my eyes were open",
+          "Before my tongue could speak",
+          "Before the bond was broken between you and me",
+          "You were home to me"
         ]},
         { label: "Chorus", lines: [
-          "You're worthy of it all",
-          "You're worthy of it all",
-          "From you are all things",
-          "To you are all things",
-          "You deserve the glory"
+          "You are home, home to me",
+          "You are patient and kind",
+          "You are peace, peace to me",
+          "You are never failing"
+        ]},
+        { label: "Verse 2", lines: [
+          "Like a house out in the country",
+          "Like a boy out on the sea",
+          "Like a river going somewhere",
+          "We all want to be",
+          "Like a voice that's so familiar",
+          "Like the ground beneath my feet",
+          "Like the way I always know how close you are to me",
+          "You are home"
         ]},
         { label: "Bridge", lines: [
-          "Day and night, night and day",
-          "Let incense arise"
+          "You are where we all come from",
+          "You are where we long to go",
+          "We have journeyed far from Eden",
+          "And we are coming home",
+          "Let our lives be filled with wonder",
+          "Let our lives be filled with song",
+          "May the way of Jesus lead back where we belong"
         ]},
       ]
     },
