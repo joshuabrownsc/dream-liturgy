@@ -14,10 +14,10 @@ const WEEK = {
   /* --------------------------------------------------------
      THE HEADER
      -------------------------------------------------------- */
-  date: "August 23, 2026",
-  season: "The Thirteenth Sunday after Pentecost",
-  title: "Keepers of the Flame",
-  preacher: "Pastor Joshua Brown",
+  date: "August 30, 2026",
+  season: "The Fourteenth Sunday after Pentecost",
+  title: "Sunday Service",
+  preacher: "Matthew Brown",
 
 
   /* --------------------------------------------------------
@@ -155,7 +155,7 @@ const WEEK = {
      -------------------------------------------------------- */
   announcements: [
     { title: "Midweek This Tuesday at 7 PM",
-      body: "We will be continuing in Acts 7 and 8. Check GroupMe for all details." },
+      body: "Check GroupMe for all details." },
   ],
 
 
@@ -165,9 +165,9 @@ const WEEK = {
      "Amen." is added for you at the end.
      -------------------------------------------------------- */
   collect: {
-    title: "The Collect for the Thirteenth Sunday after Pentecost",
+    title: "The Collect for the Fourteenth Sunday after Pentecost",
     rubric: "Prayed together, out loud.",
-    text: "Grant, O merciful God, that your Church, being gathered together in unity by your Holy Spirit, may show forth your power among all peoples, to the glory of your Name; through Jesus Christ our Lord, who lives and reigns with you and the Holy Spirit, one God, for ever and ever. Amen."
+    text: "Lord of all power and might, the author and giver of all good things: Graft in our hearts the love of your Name; increase in us true religion; nourish us with all goodness; and bring forth in us the fruit of good works; through Jesus Christ our Lord, who lives and reigns with you and the Holy Spirit, one God, for ever and ever."
   },
 
 
@@ -177,7 +177,7 @@ const WEEK = {
      reference on the screen.
      -------------------------------------------------------- */
   sermon: {
-    title: "Keepers of the Flame",
+    title: "Sunday Sermon",
     readings: [
       { reference: "1 Peter 2:1-10 NRSV" },
     ]
