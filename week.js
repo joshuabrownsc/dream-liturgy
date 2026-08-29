@@ -224,7 +224,7 @@ const WEEK = {
   sermon: {
     title: "Sunday Sermon",
     readings: [
-      { reference: "1 Peter 2:1-10 NRSV" },
+      { reference: "John 3:1-17 NIV" },
     ]
   },
 
