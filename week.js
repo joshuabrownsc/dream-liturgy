@@ -80,8 +80,8 @@ const WEEK = {
           "I thought you'd show up for perfection",
           "Cause what kind of God looks for the lost?",
           "Then say it's over for a sinner",
-          "Although you say, "No it's not, no, it's not"",
-          "You say, "No it's not, no it's not""
+          "Although you say, \"No it's not, no, it's not\"",
+          "You say, \"No it's not, no it's not\""
         ]},
         { label: "Bridge", lines: [
           "If the highest place I reach is at your feet",
@@ -99,7 +99,6 @@ const WEEK = {
         ]},
       ]
     },
-{
       title: "Carpenter Boy",
       lyrics: [
         { label: "Verse 1", lines: [
@@ -150,7 +149,7 @@ const WEEK = {
           "Singing, \"Holy is, Holy is the Lord!\"?"
         ]}
       ]
-    }
+    },
     {
       title: "Home to Me",
       lyrics: [
