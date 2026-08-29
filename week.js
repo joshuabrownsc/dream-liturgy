@@ -99,6 +99,7 @@ const WEEK = {
         ]},
       ]
     },
+    {
       title: "Carpenter Boy",
       lyrics: [
         { label: "Verse 1", lines: [
