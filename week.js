@@ -14,10 +14,10 @@ const WEEK = {
   /* --------------------------------------------------------
      THE HEADER
      -------------------------------------------------------- */
-  date: "August 30, 2026",
-  season: "The Fourteenth Sunday after Pentecost",
-  title: "Sunday Service",
-  preacher: "Matthew Brown",
+  date: "September 6, 2026",
+  season: "The Fifteenth Sunday after Pentecost",
+  title: "The Cost of Participation",
+  preacher: "Pastor Joshua Brown",
 
 
   /* --------------------------------------------------------
@@ -25,34 +25,28 @@ const WEEK = {
      Each verse has a number, a first half (a), and a second
      half (b). The asterisk between them is added for you.
      -------------------------------------------------------- */
-  psalm: {
-    reference: "Psalm 26",
+    psalm: {
+    reference: "Psalm 149",
     rubric: "Read together, the whole room, unhurried.",
     verses: [
-      { n: 1, a: "Give judgment for me, O Lord, for I have lived with integrity;",
-             b: "I have trusted in the Lord and have not faltered." },
-      { n: 2, a: "Test me, O Lord, and try me;",
-             b: "examine my heart and my mind." },
-      { n: 3, a: "For your love is before my eyes;",
-             b: "I have walked faithfully with you." },
-      { n: 4, a: "I have not sat with the worthless,",
-             b: "nor do I consort with the deceitful." },
-      { n: 5, a: "I have hated the company of evildoers;",
-             b: "I will not sit down with the wicked." },
-      { n: 6, a: "I will wash my hands in innocence, O Lord,",
-             b: "that I may go in procession round your altar," },
-      { n: 7, a: "Singing aloud a song of thanksgiving",
-             b: "and recounting all your wonderful deeds." },
-      { n: 8, a: "Lord, I love the house in which you dwell",
-             b: "and the place where your glory abides." },
-      { n: 9, a: "Do not sweep me away with sinners,",
-             b: "nor my life with those who thirst for blood," },
-      { n: 10, a: "Whose hands are full of evil plots,",
-              b: "and their right hand full of bribes." },
-      { n: 11, a: "As for me, I will live with integrity;",
-              b: "redeem me, O Lord, and have pity on me." },
-      { n: 12, a: "My foot stands on level ground;",
-              b: "in the full assembly I will bless the Lord." }
+      { n: 1, a: "Hallelujah! Sing to the Lord a new song;",
+             b: "sing his praise in the congregation of the faithful." },
+      { n: 2, a: "Let Israel rejoice in his Maker;",
+             b: "let the children of Zion be joyful in their King." },
+      { n: 3, a: "Let them praise his Name in the dance;",
+             b: "let them sing praise to him with timbrel and harp." },
+      { n: 4, a: "For the Lord takes pleasure in his people",
+             b: "and adorns the poor with victory." },
+      { n: 5, a: "Let the faithful rejoice in triumph;",
+             b: "let them be joyful on their beds." },
+      { n: 6, a: "Let the praises of God be in their throat",
+             b: "and a two-edged sword in their hand;" },
+      { n: 7, a: "To wreak vengeance on the nations",
+             b: "and punishment on the peoples;" },
+      { n: 8, a: "To bind their kings in chains",
+             b: "and their nobles with links of iron;" },
+      { n: 9, a: "To inflict on them the judgment decreed;",
+             b: "this is glory for all his faithful people." }
     ]
   },
 
@@ -65,129 +59,115 @@ const WEEK = {
      -------------------------------------------------------- */
   songs: [
  {
-      title: "What a God",
+      title: "Incarnate Love",
       lyrics: [
         { label: "Verse 1", lines: [
-          "Who thought I'd find you at the lowest place?",
-          "Who thought you'd feel me in the crowd?",
-          "Who knew you make good of my mistakes?",
-          "You're nothing like I thought you were, you're better"
+          "What love is this?",
+          "Born to a world with no room for him",
+          "What love is this?",
+          "He took on flesh and gave his life so we could live again"
+        ]},
+        { label: "Pre-Chorus", lines: [
+          "From the beginning of it all",
+          "He knew that he would never let his children fall" 
         ]},
         { label: "Chorus", lines: [
-          "What a God, What a God"
+          "Incarnate love",
+          "Left the ninety-nine to save our lives",
+          "And carry us back home",
+          "Incarnate love",
+          "Placed in a grave three days away",
+          "From life forevermore" 
         ]},
-        { label: "Verse 2", lines: [
-          "I thought you'd show up for perfection",
-          "Cause what kind of God looks for the lost?",
-          "Then say it's over for a sinner",
-          "Although you say, \"No it's not, no, it's not\"",
-          "You say, \"No it's not, no it's not\""
+         { label: "Verse 2", lines: [
+          "What love is this?",
+          "That a man would give himself to resurrect his friends",
+          "What love is this?",
+          "When on the cross, hope in his eyes, he prayed forgive them"
         ]},
         { label: "Bridge", lines: [
-          "If the highest place I reach is at your feet",
-          "Then I've done it all",
-          "If the best thing that I've seen is your glory",
-          "Then I've seen it all",
-          "Your love has changed my life, forever satisfied",
-          "God you are my everything",
-          "If one word is the only thing you speak",
-          "Then I've heard it all",
-          "If I feel your heart and never see your hand",
-          "I still have it all",
-          "No treasure of this life, could ever satisfy",
-          "God you are my everything"
+          "His hands have never held us closer",
+          "To dance the dance of all creation",
+          "His plan was always our redemption",
+          "This is where we belong"
         ]},
       ]
     },
     {
-      title: "Carpenter Boy",
+      title: "Defender",
       lyrics: [
         { label: "Verse 1", lines: [
-          "Carpenter Boy of Bethlehem",
-          "Son of God made Son of Man",
-          "Finished his days with splintered hands",
-          "A taste of what would come ahead"
+          "You go before I know",
+          "That you've even gone to win my war",
+          "You come back with the head of my enemy",
+          "You come back and you call it my victory"
+        ]},
+        { label: "Verse 2", lines: [
+          "You go before I know",
+          "That you've even gone to win my war",
+          "Your love becomes my greatest defense",
+          "It leads me from the dry wilderness"
         ]},
         { label: "PreChorus", lines: [
-          "Do you think that when he hung there",
-          "The smell of wood reminded him of home?",
-          "Did the sound of nails meeting wood",
-          "Remind him of a time when he was not alone?"
+          "All I did was praise",
+          "All I did was worship",
+          "All I did was bow down",
+          "All I did was stay still"
         ]},
         { label: "Chorus", lines: [
-          "Behold him",
-          "The one who left his kingdom to be broken",
-          "The one who put the cross upon his shoulders",
-          "The king of kings has come and made me whole"
+          "Hallelujah you have saved me",
+          "So much better your way",
+          "Hallelujah great defender",
+          "So much better your way"
         ]},
-        { label: "Verse 2", lines: [
-          "Carpenter Boy, the perfect lamb",
-          "Trusting in his father's plan",
-          "No matter what would come ahead",
-          "He'd be faithful to the very end"
-        ]},
-        { label: "Chorus", lines: [
-          "Behold him",
-          "The one who left his kingdom to be broken",
-          "The one who put the cross upon his shoulders",
-          "The king of kings has come and made me whole",
-          "Praise the Savior",
-          "Who died upon a tree that he created",
-          "He carved my name, it's written up in heaven",
-          "The Carpenter is building us a home"
+        { label: "Verse 3", lines: [
+          "You know before I do",
+          "Where my heart can seek to find your truth",
+          "Your mercy is the shade I'm living in",
+          "You restore my faith in hope again"
         ]},
         { label: "Bridge", lines: [
-          "He's building us a home"
+          "When I thought I lost me you knew where I left me",
+          "You reintroduced me to your love",
+          "You picked up all my pieces put me back together",
+          "You are the defender of my heart" 
         ]},
-        { label: "PreChorus Two", lines: [
-          "When his body gave its last breath",
-          "And death rejoiced and sang their victory",
-          "As his body laid in darkness",
-          "He seemed to be surrounded by defeat",
-          "But when that Son rose on that Sunday",
-          "The Light of the World had rolled away the stone",
-          "Oh, can you hear the heavens roaring",
-          "Singing, \"Holy is, Holy is the Lord!\"?"
-        ]}
       ]
     },
     {
-      title: "Home to Me",
+      title: "Good Shepherd",
       lyrics: [
         { label: "Verse 1", lines: [
-          "Like an unborn baby",
-          "In a mother's womb",
-          "Before my lungs could breathe",
-          "I was alive in you",
-          "Before my eyes were open",
-          "Before my tongue could speak",
-          "Before the bond was broken between you and me",
-          "You were home to me"
+          "You make me lie down in fields of green",
+          "Find rest by quiet streams",
+          "My soul restoring",
+          "Your rod and staff they comfort me",
+          "I'll follow where you lead",
+          "Fearing nothing"
         ]},
         { label: "Chorus", lines: [
-          "You are home, home to me",
-          "You are patient and kind",
-          "You are peace, peace to me",
-          "You are never failing"
+          "Good shepherd",
+          "Lead me on",
+          "Good shepherd",
+          "Now I'm right where I belong",
+          "I belong here" 
         ]},
         { label: "Verse 2", lines: [
-          "Like a house out in the country",
-          "Like a boy out on the sea",
-          "Like a river going somewhere",
-          "We all want to be",
-          "Like a voice that's so familiar",
-          "Like the ground beneath my feet",
-          "Like the way I always know how close you are to me",
-          "You are home"
+          "You prepare a table before me with all my enemies",
+          "And serve forgiveness",
+          "Your goodness and mercy shadow me for all my history",
+          "Until I see heaven"
         ]},
         { label: "Bridge", lines: [
-          "You are where we all come from",
-          "You are where we long to go",
-          "We have journeyed far from Eden",
-          "And we are coming home",
-          "Let our lives be filled with wonder",
-          "Let our lives be filled with song",
-          "May the way of Jesus lead back where we belong"
+          "All my days I will stay",
+          "In the house of my father",
+          "All my days I'll remain",
+          "In the arms of the good shepherd",
+        ]},
+         { label: "Verse 3", lines: [
+          "Where my soul has finally found its rest",
+          "And I have no regret",
+          "I'm in need of nothing"
         ]},
       ]
     },
@@ -201,6 +181,8 @@ const WEEK = {
   announcements: [
     { title: "Midweek This Tuesday at 7 PM",
       body: "Check GroupMe for all details." },
+    { title: "Fall Kickoff Potluck",
+      body: "Sunday, September 27 at 10 AM. Sign-up sheet will be at church starting next Sunday." },
   ],
 
 
@@ -212,7 +194,7 @@ const WEEK = {
   collect: {
     title: "The Collect for the Fourteenth Sunday after Pentecost",
     rubric: "Prayed together, out loud.",
-    text: "Lord of all power and might, the author and giver of all good things: Graft in our hearts the love of your Name; increase in us true religion; nourish us with all goodness; and bring forth in us the fruit of good works; through Jesus Christ our Lord, who lives and reigns with you and the Holy Spirit, one God, for ever and ever."
+    text: "Grant us, O Lord, to trust in you with all our hearts; for, as you always resist the proud who confide in their own strength, so you never forsake those who make their boast of your mercy; through Jesus Christ our Lord, who lives and reigns with you and the Holy Spirit, one God, now and for ever."
   },
 
 
@@ -222,9 +204,9 @@ const WEEK = {
      reference on the screen.
      -------------------------------------------------------- */
   sermon: {
-    title: "Sunday Sermon",
+    title: "The Cost of Participation",
     readings: [
-      { reference: "John 3:1-17 NIV" },
+      { reference: "Philippians 3:1-11 NRSV" },
     ]
   },
 
