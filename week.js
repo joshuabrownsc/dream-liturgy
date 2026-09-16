@@ -166,7 +166,7 @@ const WEEK = {
     { title: "Midweek This Tuesday at 7 PM",
       body: "Location: The Pastor's Study." },
     { title: "Fall Kickoff Potluck",
-      body: "Sunday, September 27 at 10 AM. Sign-up sheet will be at church starting next Sunday." },
+      body: "Sunday, September 27 at 10 AM. Sign-up sheet is near the coffee area." },
   ],
 
 
