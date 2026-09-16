@@ -14,8 +14,8 @@ const WEEK = {
   /* --------------------------------------------------------
      THE HEADER
      -------------------------------------------------------- */
-  date: "September 6, 2026",
-  season: "The Fifteenth Sunday after Pentecost",
+  date: "September 20, 2026",
+  season: "The Seventeenth Sunday after Pentecost",
   title: "The Cost of Participation",
   preacher: "Pastor Joshua Brown",
 
@@ -59,115 +59,99 @@ const WEEK = {
      -------------------------------------------------------- */
   songs: [
  {
-      title: "Incarnate Love",
+      title: "Good Plans",
       lyrics: [
         { label: "Verse 1", lines: [
-          "What love is this?",
-          "Born to a world with no room for him",
-          "What love is this?",
-          "He took on flesh and gave his life so we could live again"
-        ]},
-        { label: "Pre-Chorus", lines: [
-          "From the beginning of it all",
-          "He knew that he would never let his children fall" 
+          "The Lord is my shepherd, and he is everything I need",
+          "I will not worry; I will not fear the enemy",
+          "He said that he loves me, He said that he's with me even though",
+          "I walk through the valley of shadow of death and still I know"
         ]},
         { label: "Chorus", lines: [
-          "Incarnate love",
-          "Left the ninety-nine to save our lives",
-          "And carry us back home",
-          "Incarnate love",
-          "Placed in a grave three days away",
-          "From life forevermore" 
+          "He has good plans, he has good plans",
+          "For me, so I will take heart in deserts and gardens",
+          "He has good plans, he has good plans",
+          "For me, if I know my father I know my father has",
+          "Good plans"
         ]},
          { label: "Verse 2", lines: [
-          "What love is this?",
-          "That a man would give himself to resurrect his friends",
-          "What love is this?",
-          "When on the cross, hope in his eyes, he prayed forgive them"
+          "The Lord is my savior, so why should I doubt my victory",
+          "Why would I question the rod and the staff that comforts me",
+          "He quiets the waters, he quiets the storm inside of me",
+          "What could be better than walking with him when I believe"
         ]},
         { label: "Bridge", lines: [
-          "His hands have never held us closer",
-          "To dance the dance of all creation",
-          "His plan was always our redemption",
-          "This is where we belong"
+          "Surely your goodness and mercy follow me",
+          "Fear will not find me",
+          "For I'll be dwelling in the house of God"
         ]},
       ]
     },
     {
-      title: "Defender",
+      title: "Your Labor is Not in Vain",
       lyrics: [
         { label: "Verse 1", lines: [
-          "You go before I know",
-          "That you've even gone to win my war",
-          "You come back with the head of my enemy",
-          "You come back and you call it my victory"
+          "Your labor is not in vain",
+          "Though the ground underneath you is cursed and stained",
+          "Your planting and reaping are never the same",
+          "Your labor is not in vein"
         ]},
         { label: "Verse 2", lines: [
-          "You go before I know",
-          "That you've even gone to win my war",
-          "Your love becomes my greatest defense",
-          "It leads me from the dry wilderness"
-        ]},
-        { label: "PreChorus", lines: [
-          "All I did was praise",
-          "All I did was worship",
-          "All I did was bow down",
-          "All I did was stay still"
+          "Your labor is not unknown",
+          "Though the rocks they cry out and the sea it may groan",
+          "The place of your toil may not seem like a home",
+          "Your labor is not unknown"
         ]},
         { label: "Chorus", lines: [
-          "Hallelujah you have saved me",
-          "So much better your way",
-          "Hallelujah great defender",
-          "So much better your way"
+          "I am with you",
+          "For I have called you, called you by name",
+          "Your labor is not in vain"
         ]},
         { label: "Verse 3", lines: [
-          "You know before I do",
-          "Where my heart can seek to find your truth",
-          "Your mercy is the shade I'm living in",
-          "You restore my faith in hope again"
+          "The vineyards you plan will bear fruit",
+          "The fields will sing out and rejoice in the truth",
+          "For all that is old will at last be made new",
+          "The vineyards you plant will bear fruit"
         ]},
-        { label: "Bridge", lines: [
-          "When I thought I lost me you knew where I left me",
-          "You reintroduced me to your love",
-          "You picked up all my pieces put me back together",
-          "You are the defender of my heart" 
+        { label: "Verse 4", lines: [
+          "The houses you labored to build",
+          "Will finally with laughter and joy be filled",
+          "The serpent that hurts and destroys will be killed",
+          "And all that is broken be healed"
         ]},
       ]
     },
     {
-      title: "Good Shepherd",
+      title: "Kingdom of God",
       lyrics: [
         { label: "Verse 1", lines: [
-          "You make me lie down in fields of green",
-          "Find rest by quiet streams",
-          "My soul restoring",
-          "Your rod and staff they comfort me",
-          "I'll follow where you lead",
-          "Fearing nothing"
+          "Oh that I could see your face",
+          "How I'm longing for the day",
+          "Brighter sun of holy grace",
+          "Make my heart a holy place"
         ]},
         { label: "Chorus", lines: [
-          "Good shepherd",
-          "Lead me on",
-          "Good shepherd",
-          "Now I'm right where I belong",
-          "I belong here" 
+          "Blessed are the poor who have nothing to own",
+          "Blessed are the mourners who are crying alone",
+          "Blessed are the guilty who have nowhere to go",
+          "For their hearts have a road",
+          "To the kingdom of God",
+          "And their souls are the songs",
+          "Of the kingdom of God",
+          "And they will find a refuge",
+          "For theirs is the kingdom of God"
         ]},
         { label: "Verse 2", lines: [
-          "You prepare a table before me with all my enemies",
-          "And serve forgiveness",
-          "Your goodness and mercy shadow me for all my history",
-          "Until I see heaven"
+          "Beauty shining from your face",
+          "Always longed to see this place",
+          "Is there somewhere I can stay?",
+          "Even just a couple days?"
         ]},
         { label: "Bridge", lines: [
-          "All my days I will stay",
-          "In the house of my father",
-          "All my days I'll remain",
-          "In the arms of the good shepherd",
-        ]},
-         { label: "Verse 3", lines: [
-          "Where my soul has finally found its rest",
-          "And I have no regret",
-          "I'm in need of nothing"
+          "The Lord is our shepherd",
+          "We shall not want",
+          "Our cup runneth over and over",
+          "For now and forever",
         ]},
       ]
     },
@@ -180,7 +164,7 @@ const WEEK = {
      -------------------------------------------------------- */
   announcements: [
     { title: "Midweek This Tuesday at 7 PM",
-      body: "Check GroupMe for all details." },
+      body: "Location: The Pastor's Study." },
     { title: "Fall Kickoff Potluck",
       body: "Sunday, September 27 at 10 AM. Sign-up sheet will be at church starting next Sunday." },
   ],
@@ -192,9 +176,9 @@ const WEEK = {
      "Amen." is added for you at the end.
      -------------------------------------------------------- */
   collect: {
-    title: "The Collect for the Fourteenth Sunday after Pentecost",
+    title: "The Collect for the Seventeenth Sunday after Pentecost",
     rubric: "Prayed together, out loud.",
-    text: "Grant us, O Lord, to trust in you with all our hearts; for, as you always resist the proud who confide in their own strength, so you never forsake those who make their boast of your mercy; through Jesus Christ our Lord, who lives and reigns with you and the Holy Spirit, one God, now and for ever."
+    text: "Grant us, Lord, not to be anxious about earthly things, but to love things heavenly; and even now, while we are placed among things that are passing away, to hold fast to those that shall endure; through Jesus Christ our Lord, who lives and reigns with you and the Holy Spirit, one God, for ever and ever."
   },
 
 
