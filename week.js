@@ -25,28 +25,26 @@ const WEEK = {
      Each verse has a number, a first half (a), and a second
      half (b). The asterisk between them is added for you.
      -------------------------------------------------------- */
-    psalm: {
-    reference: "Psalm 149",
+  psalm: {
+    reference: "Psalm 145:1-8",
     rubric: "Read together, the whole room, unhurried.",
     verses: [
-      { n: 1, a: "Hallelujah! Sing to the Lord a new song;",
-             b: "sing his praise in the congregation of the faithful." },
-      { n: 2, a: "Let Israel rejoice in his Maker;",
-             b: "let the children of Zion be joyful in their King." },
-      { n: 3, a: "Let them praise his Name in the dance;",
-             b: "let them sing praise to him with timbrel and harp." },
-      { n: 4, a: "For the Lord takes pleasure in his people",
-             b: "and adorns the poor with victory." },
-      { n: 5, a: "Let the faithful rejoice in triumph;",
-             b: "let them be joyful on their beds." },
-      { n: 6, a: "Let the praises of God be in their throat",
-             b: "and a two-edged sword in their hand;" },
-      { n: 7, a: "To wreak vengeance on the nations",
-             b: "and punishment on the peoples;" },
-      { n: 8, a: "To bind their kings in chains",
-             b: "and their nobles with links of iron;" },
-      { n: 9, a: "To inflict on them the judgment decreed;",
-             b: "this is glory for all his faithful people." }
+      { n: 1, a: "I will exalt you, O God my King,",
+             b: "and bless your Name for ever and ever." },
+      { n: 2, a: "Every day will I bless you",
+             b: "and praise your Name for ever and ever." },
+      { n: 3, a: "Great is the Lord and greatly to be praised;",
+             b: "there is no end to his greatness." },
+      { n: 4, a: "One generation shall praise your works to another",
+             b: "and shall declare your power." },
+      { n: 5, a: "I will ponder the glorious splendor of your majesty",
+             b: "and all your marvelous works." },
+      { n: 6, a: "They shall speak of the might of your wondrous acts,",
+             b: "and I will tell of your greatness." },
+      { n: 7, a: "They shall publish the remembrance of your great goodness;",
+             b: "they shall sing of your righteous deeds." },
+      { n: 8, a: "The Lord is gracious and full of compassion,",
+             b: "slow to anger and of great kindness." }
     ]
   },
 
