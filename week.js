@@ -16,7 +16,7 @@ const WEEK = {
      -------------------------------------------------------- */
   date: "September 20, 2026",
   season: "The Seventeenth Sunday after Pentecost",
-  title: "The Cost of Participation",
+  title: "Embodied Liberation",
   preacher: "Pastor Joshua Brown",
 
 
@@ -186,9 +186,9 @@ const WEEK = {
      reference on the screen.
      -------------------------------------------------------- */
   sermon: {
-    title: "The Cost of Participation",
+    title: "Embodied Liberation",
     readings: [
-      { reference: "Philippians 3:1-11 NRSV" },
+      { reference: "Acts 13:26-41 | Isaiah 48:3-6 NRSV" },
     ]
   },
 
