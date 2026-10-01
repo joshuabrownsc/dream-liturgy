@@ -133,13 +133,13 @@ const WEEK = {
           "It's time to come home",
           "I've sown many tears",
           "But I'm reaping hope",
-          "He's giving me a new song to sing",
-          "He's been so good to me",
+          "You're giving me a new song to sing",
+          "You've been so good to me",
           "The fear left me blind",
           "But love helped me see",
-          "That he's never once forsaken me",
+          "That you've never once forsaken me",
           "It's more than I was taught to believe",
-          "He's been so good to me"
+          "You've been so good to me"
         ]},
         { label: "Chorus 2", lines: [
           "In the middle of the darkest of nights",
