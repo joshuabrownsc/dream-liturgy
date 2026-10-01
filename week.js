@@ -6,7 +6,7 @@
    - Delete a whole section (set it to null) and it disappears too.
    - Keep the commas and quote marks exactly where they are.
    - Apostrophes inside text are fine. Quotation marks inside text
-     need a backslash in front, like this: \"Come and see.\"
+     need a backslash in front, like this: \\\"Come and see.\\\"
    ============================================================ */
 
 const WEEK = {
@@ -14,9 +14,9 @@ const WEEK = {
   /* --------------------------------------------------------
      THE HEADER
      -------------------------------------------------------- */
-  date: "September 20, 2026",
-  season: "The Seventeenth Sunday after Pentecost",
-  title: "Embodied Liberation",
+  date: "October 4, 2026",
+  season: "The Nineteenth Sunday after Pentecost",
+  title: "Incarnational Gospel",
   preacher: "Pastor Joshua Brown",
 
 
@@ -26,25 +26,37 @@ const WEEK = {
      half (b). The asterisk between them is added for you.
      -------------------------------------------------------- */
   psalm: {
-    reference: "Psalm 145:1-8",
+    reference: "Psalm 19",
     rubric: "Read together, the whole room, unhurried.",
     verses: [
-      { n: 1, a: "I will exalt you, O God my King,",
-             b: "and bless your Name for ever and ever." },
-      { n: 2, a: "Every day will I bless you",
-             b: "and praise your Name for ever and ever." },
-      { n: 3, a: "Great is the Lord and greatly to be praised;",
-             b: "there is no end to his greatness." },
-      { n: 4, a: "One generation shall praise your works to another",
-             b: "and shall declare your power." },
-      { n: 5, a: "I will ponder the glorious splendor of your majesty",
-             b: "and all your marvelous works." },
-      { n: 6, a: "They shall speak of the might of your wondrous acts,",
-             b: "and I will tell of your greatness." },
-      { n: 7, a: "They shall publish the remembrance of your great goodness;",
-             b: "they shall sing of your righteous deeds." },
-      { n: 8, a: "The Lord is gracious and full of compassion,",
-             b: "slow to anger and of great kindness." }
+      { n: 1, a: "The heavens declare the glory of God,",
+             b: "and the firmament shows his handiwork." },
+      { n: 2, a: "One day tells its tale to another,",
+             b: "and one night imparts knowledge to another." },
+      { n: 3, a: "Although they have no words or language,",
+             b: "and their voices are not heard," },
+      { n: 4, a: "Their sound has gone out into all lands,",
+             b: "and their message to the ends of the world." },
+      { n: 5, a: "In the deep has he set a pavilion for the sun;",
+             b: "it comes forth like a bridegroom out of his chamber; it rejoices like a champion to run its course." },
+      { n: 6, a: "It goes forth from the uttermost edge of the heavens and runs about to the end of it again;",
+             b: "nothing is hidden from its burning heat." },
+      { n: 7, a: "The law of the Lord is perfect and revives the soul;",
+             b: "the testimony of the Lord is sure and gives wisdom to the innocent." },
+      { n: 8, a: "The statutes of the Lord are just and rejoice the heart;",
+             b: "the commandment of the Lord is clear and gives light to the eyes." },
+      { n: 9, a: "The fear of the Lord is clean and endures for ever;",
+             b: "the judgments of the Lord are true and righteous altogether." },
+      { n: 10, a: "More to be desired are they than gold, more than much fine gold,",
+             b: "sweeter far than honey, than honey in the comb." },
+      { n: 11, a: "By them also is your servant enlightened,",
+             b: "and in keeping them there is great reward." },
+      { n: 12, a: "Who can tell how often he offends?",
+             b: "cleanse me from my secret faults." },
+      { n: 13, a: "Above all, keep your servant from presumptuous sins; let them not get dominion over me;",
+             b: "then shall I be whole and sound, and innocent of a great offense." },
+      { n: 14, a: "Let the words of my mouth and the meditation of my heart be acceptable in your sight,",
+             b: "O Lord, my strength and my redeemer." }
     ]
   },
 
@@ -56,66 +68,95 @@ const WEEK = {
      song and only the title will show.
      -------------------------------------------------------- */
   songs: [
- {
-      title: "Good Plans",
+    {
+      title: "Christ is Lower Still",
       lyrics: [
         { label: "Verse 1", lines: [
-          "The Lord is my shepherd, and he is everything I need",
-          "I will not worry; I will not fear the enemy",
-          "He said that he loves me, He said that he's with me even though",
-          "I walk through the valley of shadow of death and still I know"
+          "Breathe in reach out",
+          "Touch the hem of Your garment now",
+          "Help me heal me",
+          "My mind my body and soul"
         ]},
         { label: "Chorus", lines: [
-          "He has good plans, he has good plans",
-          "For me, so I will take heart in deserts and gardens",
-          "He has good plans, he has good plans",
-          "For me, if I know my father I know my father has",
-          "Good plans"
+          "Let the King descend",
+          "Living word made flesh",
+          "Lift this heavy heart",
+          "To Your throne, O God",
+          "In Your wounds I find",
+          "Room for all of mine",
+          "When from grace I fell",
+          "Christ was lower still"
         ]},
-         { label: "Verse 2", lines: [
-          "The Lord is my savior, so why should I doubt my victory",
-          "Why would I question the rod and the staff that comforts me",
-          "He quiets the waters, he quiets the storm inside of me",
-          "What could be better than walking with him when I believe"
+        { label: "Verse 2", lines: [
+          "Humbly lowly",
+          "Jesus waits in the valley",
+          "My Savior suffers with me",
+          "With Him I'll rise again"
         ]},
-        { label: "Bridge", lines: [
-          "Surely your goodness and mercy follow me",
-          "Fear will not find me",
-          "For I'll be dwelling in the house of God"
+        { label: "C", lines: [
+          "We lift it all up to You Lord",
+          "We lift our heads, we lift our hands",
+          "We lift our dreams, we lift our plans",
+          "We lift our sorrow and our pain",
+          "We cast our cares on You again"
         ]},
       ]
     },
     {
-      title: "Your Labor is Not in Vain",
+      title: "So Good To Me",
       lyrics: [
         { label: "Verse 1", lines: [
-          "Your labor is not in vain",
-          "Though the ground underneath you is cursed and stained",
-          "Your planting and reaping are never the same",
-          "Your labor is not in vein"
-        ]},
-        { label: "Verse 2", lines: [
-          "Your labor is not unknown",
-          "Though the rocks they cry out and the sea it may groan",
-          "The place of your toil may not seem like a home",
-          "Your labor is not unknown"
+          "I couldn't see you",
+          "But you never left me",
+          "I couldn't hear your voice",
+          "But you heard mine",
+          "My world was chaotic",
+          "But you were the peace in the storm",
+          "It's deep in the valley",
+          "That I learned to trust you more"
         ]},
         { label: "Chorus", lines: [
-          "I am with you",
-          "For I have called you, called you by name",
-          "Your labor is not in vain"
+          "In the middle of the darkest night",
+          "When I didn't have the strength to fight",
+          "You carried me when I couldn't see",
+          "You have been so good to me",
+          "When the tears would just fall like rain",
+          "Feeling all alone in my pain",
+          "And I didn't know if I still believed",
+          "You have been so good to me"
         ]},
-        { label: "Verse 3", lines: [
-          "The vineyards you plan will bear fruit",
-          "The fields will sing out and rejoice in the truth",
-          "For all that is old will at last be made new",
-          "The vineyards you plant will bear fruit"
+        { label: "Verse 2", lines: [
+          "I thought if I faked it",
+          "I'd finally make it",
+          "But you never wanted more",
+          "Than all that I am",
+          "You don't care about perfection",
+          "You care about who I'm meant to be",
+          "It's when I feel broken",
+          "That I learn to trust you more"
         ]},
-        { label: "Verse 4", lines: [
-          "The houses you labored to build",
-          "Will finally with laughter and joy be filled",
-          "The serpent that hurts and destroys will be killed",
-          "And all that is broken be healed"
+        { label: "Bridge", lines: [
+          "Awaken my soul",
+          "It's time to come home",
+          "I've sown many tears",
+          "But I'm reaping hope",
+          "He's giving me a new song to sing",
+          "He's been so good to me",
+          "The fear left me blind",
+          "But love helped me see",
+          "That he's never once forsaken me",
+          "It's more than I was taught to believe",
+          "He's been so good to me"
+        ]},
+        { label: "Chorus 2", lines: [
+          "In the middle of the darkest of nights",
+          "When I didn't have the strength to fight",
+          "You carried me til now I can see",
+          "You have been so good to me",
+          "When the tears would just fall like rain",
+          "And I felt alone in all my pain",
+          "You have given me the faith to believe",
+          "You have been so good to me"
         ]},
       ]
     },
@@ -146,10 +187,11 @@ const WEEK = {
           "Even just a couple days?"
         ]},
         { label: "Bridge", lines: [
-          "The Lord is our shepherd",
-          "We shall not want",
+          "The Lord is our shepherd, we shall not want",
+          "In valley or pasture, we shall not want",
           "Our cup runneth over and over",
           "For now and forever",
+          "For now and forever"
         ]},
       ]
     },
@@ -161,10 +203,8 @@ const WEEK = {
      Three is the ceiling. Anything else goes in the newsletter.
      -------------------------------------------------------- */
   announcements: [
-    { title: "Midweek This Tuesday at 7 PM",
-      body: "Location: The Pastor's Study." },
-    { title: "Fall Kickoff Potluck",
-      body: "Sunday, September 27 at 10 AM. Sign-up sheet is near the coffee area." },
+    { title: "Midweek at The Pastor's Study",
+      body: "Tuesday, October 13." },
   ],
 
 
@@ -174,9 +214,9 @@ const WEEK = {
      "Amen." is added for you at the end.
      -------------------------------------------------------- */
   collect: {
-    title: "The Collect for the Seventeenth Sunday after Pentecost",
+    title: "The Collect for the Nineteenth Sunday after Pentecost",
     rubric: "Prayed together, out loud.",
-    text: "Grant us, Lord, not to be anxious about earthly things, but to love things heavenly; and even now, while we are placed among things that are passing away, to hold fast to those that shall endure; through Jesus Christ our Lord, who lives and reigns with you and the Holy Spirit, one God, for ever and ever."
+    text: "Almighty and everlasting God, you are always more ready to hear than we to pray, and to give more than we either desire or deserve: Pour upon us the abundance of your mercy, forgiving us those things of which our conscience is afraid, and giving us those good things for which we are not worthy to ask, except through the merits and mediation of Jesus Christ our Savior; who lives and reigns with you and the Holy Spirit, one God, for ever and ever."
   },
 
 
@@ -186,9 +226,9 @@ const WEEK = {
      reference on the screen.
      -------------------------------------------------------- */
   sermon: {
-    title: "Embodied Liberation",
+    title: "Incarnational Gospel",
     readings: [
-      { reference: "Acts 13:26-41 | Isaiah 48:3-6 NRSV" },
+      { reference: "Ephesians 2 NRSV" },
     ]
   },
 
