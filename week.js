@@ -93,13 +93,6 @@ const WEEK = {
           "My Savior suffers with me",
           "With Him I'll rise again"
         ]},
-        { label: "C", lines: [
-          "We lift it all up to You Lord",
-          "We lift our heads, we lift our hands",
-          "We lift our dreams, we lift our plans",
-          "We lift our sorrow and our pain",
-          "We cast our cares on You again"
-        ]},
       ]
     },
     {
