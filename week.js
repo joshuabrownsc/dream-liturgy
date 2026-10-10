@@ -14,9 +14,9 @@ const WEEK = {
   /* --------------------------------------------------------
      THE HEADER
      -------------------------------------------------------- */
-  date: "October 4, 2026",
-  season: "The Nineteenth Sunday after Pentecost",
-  title: "Incarnational Gospel",
+  date: "October 11, 2026",
+  season: "The Twentieth Sunday after Pentecost",
+  title: "The Illogical Kingdom of God",
   preacher: "Pastor Joshua Brown",
 
 
@@ -26,37 +26,31 @@ const WEEK = {
      half (b). The asterisk between them is added for you.
      -------------------------------------------------------- */
   psalm: {
-    reference: "Psalm 19",
+    reference: "Psalm 106:1-6, 19-23",
     rubric: "Read together, the whole room, unhurried.",
     verses: [
-      { n: 1, a: "The heavens declare the glory of God,",
-             b: "and the firmament shows his handiwork." },
-      { n: 2, a: "One day tells its tale to another,",
-             b: "and one night imparts knowledge to another." },
-      { n: 3, a: "Although they have no words or language,",
-             b: "and their voices are not heard," },
-      { n: 4, a: "Their sound has gone out into all lands,",
-             b: "and their message to the ends of the world." },
-      { n: 5, a: "In the deep has he set a pavilion for the sun;",
-             b: "it comes forth like a bridegroom out of his chamber; it rejoices like a champion to run its course." },
-      { n: 6, a: "It goes forth from the uttermost edge of the heavens and runs about to the end of it again;",
-             b: "nothing is hidden from its burning heat." },
-      { n: 7, a: "The law of the Lord is perfect and revives the soul;",
-             b: "the testimony of the Lord is sure and gives wisdom to the innocent." },
-      { n: 8, a: "The statutes of the Lord are just and rejoice the heart;",
-             b: "the commandment of the Lord is clear and gives light to the eyes." },
-      { n: 9, a: "The fear of the Lord is clean and endures for ever;",
-             b: "the judgments of the Lord are true and righteous altogether." },
-      { n: 10, a: "More to be desired are they than gold, more than much fine gold,",
-             b: "sweeter far than honey, than honey in the comb." },
-      { n: 11, a: "By them also is your servant enlightened,",
-             b: "and in keeping them there is great reward." },
-      { n: 12, a: "Who can tell how often he offends?",
-             b: "cleanse me from my secret faults." },
-      { n: 13, a: "Above all, keep your servant from presumptuous sins; let them not get dominion over me;",
-             b: "then shall I be whole and sound, and innocent of a great offense." },
-      { n: 14, a: "Let the words of my mouth and the meditation of my heart be acceptable in your sight,",
-             b: "O Lord, my strength and my redeemer." }
+      { n: 1, a: "Hallelujah! Give thanks to the LORD, for he is good,",
+             b: "for his mercy endures for ever." },
+      { n: 2, a: "Who can declare the mighty acts of the LORD",
+             b: "or show forth all his praise?" },
+      { n: 3, a: "Happy are those who act with justice",
+             b: "and always do what is right!" },
+      { n: 4, a: "Remember me, O LORD, with the favor you have for your people,",
+             b: "and visit me with your saving help;" },
+      { n: 5, a: "That I may see the prosperity of your elect and be glad with the gladness of your people,",
+             b: "that I may glory with your inheritance." },
+      { n: 6, a: "We have sinned as our forebears did;",
+             b: "we have done wrong and dealt wickedly." },
+      { n: 19, a: "Israel made a bull-calf at Horeb",
+             b: "and worshiped a molten image;" },
+      { n: 20, a: "And so they exchanged their Glory",
+             b: "for the image of an ox that feeds on grass." },
+      { n: 21, a: "They forgot God their Savior,",
+             b: "who had done great things in Egypt," },
+      { n: 22, a: "Wonderful deeds in the land of Ham,",
+             b: "and fearful things at the Red Sea." },
+      { n: 23, a: "So he would have destroyed them, had not Moses his chosen stood before him in the breach,",
+             b: "to turn away his wrath from consuming them." }
     ]
   },
 
@@ -69,29 +63,95 @@ const WEEK = {
      -------------------------------------------------------- */
   songs: [
     {
-      title: "Christ is Lower Still",
+      title: "Carpenter Boy",
       lyrics: [
         { label: "Verse 1", lines: [
-          "Breathe in reach out",
-          "Touch the hem of Your garment now",
-          "Help me heal me",
-          "My mind my body and soul"
+          "Carpenter Boy of Bethlehem",
+          "Son of God made Son of Man",
+          "Finished his days with splintered hands",
+          "A taste of what would come ahead"
+        ]},
+        { label: "Pre-Chorus", lines: [
+          "Do you think that when he hung there",
+          "The smell of wood reminded him of home?",
+          "Did the sound of nails meeting wood",
+          "Remind him of a time when he was not alone?"
         ]},
         { label: "Chorus", lines: [
-          "Let the King descend",
-          "Living word made flesh",
-          "Lift this heavy heart",
-          "To Your throne, O God",
-          "In Your wounds I find",
-          "Room for all of mine",
-          "When from grace I fell",
-          "Christ was lower still"
+          "Behold him",
+          "The one who left his kingdom to be broken",
+          "The one who put the cross upon his shoulders",
+          "The king of kings has come and made me whole"
         ]},
         { label: "Verse 2", lines: [
-          "Humbly lowly",
-          "Jesus waits in the valley",
-          "My Savior suffers with me",
-          "With Him I'll rise again"
+          "Carpenter Boy, the perfect lamb",
+          "Trusting in his father's plan",
+          "No matter what would come ahead",
+          "He'd be faithful to the very end"
+        ]},
+        { label: "Chorus 2", lines: [
+          "Behold him",
+          "The one who left his kingdom to be broken",
+          "The one who put the cross upon his shoulders",
+          "The king of kings has come and made me whole",
+          "Praise the Savior",
+          "Who died upon a tree that he created",
+          "He carved my name, it's written up in heaven",
+          "The Carpenter is building us a home"
+        ]},
+        { label: "Bridge", lines: [
+          "He's building us a home",
+          "Oh-oh-oh, oh, oh"
+        ]},
+        { label: "Pre-Chorus 2", lines: [
+          "When his body gave its last breath",
+          "And death rejoiced and sang their victory",
+          "As his body laid in darkness",
+          "He seemed to be surrounded by defeat",
+          "But when that Son rose on that Sunday",
+          "The Light of the World had rolled away the stone",
+          "Oh, can you hear the heavens roaring",
+          "Singing, \"Holy is, Holy is the Lord!\"?"
+        ]},
+      ]
+    },
+    {
+      title: "In the Beginning Was Love",
+      lyrics: [
+        { label: "Verse 1", lines: [
+          "In the beginning was love",
+          "And the love was with God",
+          "And the love was God",
+          "He was with God in the beginning",
+          "And the world was made through him",
+          "And so was I"
+        ]},
+        { label: "Chorus", lines: [
+          "And there was light",
+          "And the light was the light of heaven",
+          "And there was goodness",
+          "And the goodness walked the earth",
+          "And there was beauty",
+          "And the beauty would sing",
+          "Like a voice in the wilderness",
+          "Calling my name",
+          "And before I knew what love was",
+          "Love was in the beginning"
+        ]},
+        { label: "Verse 2", lines: [
+          "In the beginning was the song",
+          "And the song was with God",
+          "And the song was God",
+          "He was the voice in the beginning",
+          "And the stars would sing for him",
+          "And so will I"
+        ]},
+        { label: "Bridge", lines: [
+          "The light shines in the dark",
+          "The dark has not overcome it"
+        ]},
+        { label: "Coda", lines: [
+          "Love was in the beginning"
         ]},
       ]
     },
@@ -153,41 +213,6 @@ const WEEK = {
         ]},
       ]
     },
-    {
-      title: "Kingdom of God",
-      lyrics: [
-        { label: "Verse 1", lines: [
-          "Oh that I could see your face",
-          "How I'm longing for the day",
-          "Brighter sun of holy grace",
-          "Make my heart a holy place"
-        ]},
-        { label: "Chorus", lines: [
-          "Blessed are the poor who have nothing to own",
-          "Blessed are the mourners who are crying alone",
-          "Blessed are the guilty who have nowhere to go",
-          "For their hearts have a road",
-          "To the kingdom of God",
-          "And their souls are the songs",
-          "Of the kingdom of God",
-          "And they will find a refuge",
-          "For theirs is the kingdom of God"
-        ]},
-        { label: "Verse 2", lines: [
-          "Beauty shining from your face",
-          "Always longed to see this place",
-          "Is there somewhere I can stay?",
-          "Even just a couple days?"
-        ]},
-        { label: "Bridge", lines: [
-          "The Lord is our shepherd, we shall not want",
-          "In valley or pasture, we shall not want",
-          "Our cup runneth over and over",
-          "For now and forever",
-          "For now and forever"
-        ]},
-      ]
-    },
   ],
 
 
@@ -207,9 +232,9 @@ const WEEK = {
      "Amen." is added for you at the end.
      -------------------------------------------------------- */
   collect: {
-    title: "The Collect for the Nineteenth Sunday after Pentecost",
+    title: "The Collect for the Twentieth Sunday after Pentecost",
     rubric: "Prayed together, out loud.",
-    text: "Almighty and everlasting God, you are always more ready to hear than we to pray, and to give more than we either desire or deserve: Pour upon us the abundance of your mercy, forgiving us those things of which our conscience is afraid, and giving us those good things for which we are not worthy to ask, except through the merits and mediation of Jesus Christ our Savior; who lives and reigns with you and the Holy Spirit, one God, for ever and ever."
+    text: "Lord, we pray that your grace may always precede and follow us, that we may continually be given to good works; through Jesus Christ our Lord, who lives and reigns with you and the Holy Spirit, one God, now and for ever."
   },
 
 
@@ -219,9 +244,9 @@ const WEEK = {
      reference on the screen.
      -------------------------------------------------------- */
   sermon: {
-    title: "Incarnational Gospel",
+    title: "The Illogical Kingdom of God",
     readings: [
-      { reference: "Ephesians 2 NRSV" },
+      { reference: "Luke 5:1-11 NRSV" },
     ]
   },
 
