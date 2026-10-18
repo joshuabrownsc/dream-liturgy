@@ -205,6 +205,8 @@ const WEEK = {
   announcements: [
     { title: "Midweek at The Pastor's Study",
       body: "Tuesday, October 20." },
+    { title: "Dream Family Thanksgiving",
+      body: "Sunday, November 22 at 10 AM. Sign up sheet coming soon." },
   ],
 
 
