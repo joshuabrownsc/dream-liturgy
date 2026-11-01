@@ -30,27 +30,27 @@ const WEEK = {
     rubric: "Read together, the whole room, unhurried.",
     verses: [
       { n: 1, a: "I will bless the LORD at all times;",
-             b: "his praise shall ever be in my mouth." },
-      { n: 2, a: "I will glory in the LORD;",
-             b: "let the humble hear and rejoice." },
-      { n: 3, a: "Proclaim with me the greatness of the LORD;",
-             b: "let us exalt his Name together." },
-      { n: 4, a: "I sought the LORD, and he answered me",
-             b: "and delivered me out of all my terror." },
-      { n: 5, a: "Look upon him and be radiant,",
-             b: "and let not your faces be ashamed." },
-      { n: 6, a: "I called in my affliction and the LORD heard me",
-             b: "and saved me from all my troubles." },
-      { n: 7, a: "The angel of the LORD encompasses those who fear him,",
-             b: "and he will deliver them." },
-      { n: 8, a: "Taste and see that the LORD is good;",
-             b: "happy are they who trust in him!" },
-      { n: 9, a: "Fear the LORD, you that are his saints,",
-             b: "for those who fear him lack nothing." },
-      { n: 10, a: "The young lions lack and suffer hunger,",
-             b: "but those who seek the LORD lack nothing that is good." },
-      { n: 22, a: "The LORD ransoms the life of his servants,",
-             b: "and none will be punished who trust in him." }
+             b: "his praise shall continually be in my mouth." },
+      { n: 2, a: "My soul makes its boast in the LORD;",
+             b: "let the humble hear and be glad." },
+      { n: 3, a: "O magnify the LORD with me,",
+             b: "and let us exalt his name together." },
+      { n: 4, a: "I sought the LORD, and he answered me,",
+             b: "and delivered me from all my fears." },
+      { n: 5, a: "Look to him, and be radiant;",
+             b: "so your faces shall never be ashamed." },
+      { n: 6, a: "This poor soul cried, and was heard by the LORD,",
+             b: "and was saved from every trouble." },
+      { n: 7, a: "The angel of the LORD encamps around those who fear him,",
+             b: "and delivers them." },
+      { n: 8, a: "O taste and see that the LORD is good;",
+             b: "happy are those who take refuge in him." },
+      { n: 9, a: "O fear the LORD, you his holy ones,",
+             b: "for those who fear him have no want." },
+      { n: 10, a: "The young lions suffer want and hunger,",
+             b: "but those who seek the LORD lack no good thing." },
+      { n: 22, a: "The LORD redeems the life of his servants;",
+             b: "none of those who take refuge in him will be condemned." }
     ]
   },
 
@@ -68,7 +68,7 @@ const WEEK = {
         { label: "Verse 1", lines: [
           "O good shepherd",
           "Would you teach me how to rest",
-          "I am rushing on",
+          "I'm rushing on",
           "Will you make me to lie down",
           "Will you build a fold",
           "By the waters that refresh",
@@ -89,13 +89,13 @@ const WEEK = {
           "O Good Shepherd",
           "O good friend",
           "Slow me down",
-          "Slow me down (x2)"
+          "Slow me down"
         ]},
         { label: "Verse 3", lines: [
-          "When my table is bent",
+          "When my table's bent",
           "With only greed and gold",
           "And my grasping hands",
-          "Are afraid you will not provide",
+          "Are afraid you won't provide",
           "Will you pour the wine",
           "That loosens up my hold",
           "Set your table here",
@@ -109,7 +109,7 @@ const WEEK = {
           "Will you lead me home",
           "To the pastures of your peace",
           "And the house is yours",
-          "I am sitting at your feet"
+          "I'm sitting at your feet"
         ]},
       ]
     },
@@ -118,7 +118,7 @@ const WEEK = {
       lyrics: [
         { label: "Verse 1", lines: [
           "Oh that I could see your face",
-          "How I am longing for the day",
+          "How I'm longing for the day",
           "Brighter sun of holy grace",
           "Make my heart a holy place"
         ]},
@@ -148,7 +148,7 @@ const WEEK = {
         ]},
         { label: "Verse 3", lines: [
           "Oh that I could see your face",
-          "How I am longing for the day"
+          "How I'm longing for the day"
         ]},
       ]
     },
@@ -161,31 +161,31 @@ const WEEK = {
           "You know when I sit down and rise up",
           "You have searched out my path",
           "And my lying down",
-          "You are acquainted with all of my ways"
+          "You're acquainted with all of my ways"
         ]},
         { label: "Pre-Chorus", lines: [
           "Such knowledge is too wonderful for me"
         ]},
         { label: "Chorus", lines: [
-          "If I climb up to the heavens you are there",
+          "If I climb up to the heavens you're there",
           "If I fall into the depths you are there",
           "If I take the wings of the morning",
           "Fly to the furthest place",
           "Even there your hand will find me",
           "Even there your hand will hold me",
-          "Even there I know I am safe"
+          "Even there I know I'm safe"
         ]},
         { label: "Verse 2", lines: [
           "If I say surely darkness",
           "Shall pull me underneath",
           "And the night wraps itself around me",
-          "Even darkness is not darkness",
+          "Even darkness isn't darkness",
           "To the one who is the light",
           "You have guided my path so I can see"
         ]},
         { label: "Verse 3", lines: [
           "In the depths of the womb",
-          "I was not hidden from your love",
+          "I wasn't hidden from your love",
           "Your eyes saw who I would become",
           "Every day you wrote in secret",
           "Before any came to be",
@@ -216,7 +216,7 @@ const WEEK = {
   collect: {
     title: "The Collect for All Saints Day",
     rubric: "Prayed together, out loud.",
-    text: "Almighty God, you have knit together your elect in one communion and fellowship in the mystical body of your Son Christ our Lord: Give us grace so to follow your blessed saints in all virtuous and godly living, that we may come to those ineffable joys that you have prepared for those who truly love you; through Jesus Christ our Lord, who with you and the Holy Spirit lives and reigns, one God, in glory everlasting."
+    text: "Almighty God, you have knit together your people in one communion and fellowship in the mystical body of your Son Christ our Lord: Give us grace so to follow your blessed saints in all virtuous and godly living, that we may come to those ineffable joys that you have prepared for those who truly love you; through Jesus Christ our Lord, who with you and the Holy Spirit lives and reigns, one God, in glory everlasting."
   },
 
 
@@ -228,8 +228,8 @@ const WEEK = {
   sermon: {
     title: "I Pledge Allegiance To…",
     readings: [
-      { reference: "Matthew 5:1-12" },
-      { reference: "Matthew 7:24-29" },
+      { reference: "Matthew 5:1-12 NRSV" },
+      { reference: "Matthew 7:24-29 NRSV" },
     ]
   },
 
