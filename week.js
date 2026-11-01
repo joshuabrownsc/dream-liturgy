@@ -68,7 +68,7 @@ const WEEK = {
         { label: "Verse 1", lines: [
           "O good shepherd",
           "Would you teach me how to rest",
-          "I am rushing on",
+          "I'm rushing on",
           "Will you make me to lie down",
           "Will you build a fold",
           "By the waters that refresh",
@@ -92,10 +92,10 @@ const WEEK = {
           "Slow me down"
         ]},
         { label: "Verse 3", lines: [
-          "When my table is bent",
+          "When my table's bent",
           "With only greed and gold",
           "And my grasping hands",
-          "Are afraid you will not provide",
+          "Are afraid you won't provide",
           "Will you pour the wine",
           "That loosens up my hold",
           "Set your table here",
@@ -109,7 +109,7 @@ const WEEK = {
           "Will you lead me home",
           "To the pastures of your peace",
           "And the house is yours",
-          "I am sitting at your feet"
+          "I'm sitting at your feet"
         ]},
       ]
     },
@@ -118,7 +118,7 @@ const WEEK = {
       lyrics: [
         { label: "Verse 1", lines: [
           "Oh that I could see your face",
-          "How I am longing for the day",
+          "How I'm longing for the day",
           "Brighter sun of holy grace",
           "Make my heart a holy place"
         ]},
@@ -148,7 +148,7 @@ const WEEK = {
         ]},
         { label: "Verse 3", lines: [
           "Oh that I could see your face",
-          "How I am longing for the day"
+          "How I'm longing for the day"
         ]},
       ]
     },
@@ -161,31 +161,31 @@ const WEEK = {
           "You know when I sit down and rise up",
           "You have searched out my path",
           "And my lying down",
-          "You are acquainted with all of my ways"
+          "You're acquainted with all of my ways"
         ]},
         { label: "Pre-Chorus", lines: [
           "Such knowledge is too wonderful for me"
         ]},
         { label: "Chorus", lines: [
-          "If I climb up to the heavens you are there",
+          "If I climb up to the heavens you're there",
           "If I fall into the depths you are there",
           "If I take the wings of the morning",
           "Fly to the furthest place",
           "Even there your hand will find me",
           "Even there your hand will hold me",
-          "Even there I know I am safe"
+          "Even there I know I'm safe"
         ]},
         { label: "Verse 2", lines: [
           "If I say surely darkness",
           "Shall pull me underneath",
           "And the night wraps itself around me",
-          "Even darkness is not darkness",
+          "Even darkness isn't darkness",
           "To the one who is the light",
           "You have guided my path so I can see"
         ]},
         { label: "Verse 3", lines: [
           "In the depths of the womb",
-          "I was not hidden from your love",
+          "I wasn't hidden from your love",
           "Your eyes saw who I would become",
           "Every day you wrote in secret",
           "Before any came to be",
