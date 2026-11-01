@@ -14,9 +14,9 @@ const WEEK = {
   /* --------------------------------------------------------
      THE HEADER
      -------------------------------------------------------- */
-  date: "October 25, 2026",
-  season: "The Twenty-second Sunday after Pentecost",
-  title: "Calling Things Up From The Dead",
+  date: "November 1, 2026",
+  season: "All Saints Day",
+  title: "I Pledge Allegiance To…",
   preacher: "Pastor Joshua Brown",
 
 
@@ -26,31 +26,31 @@ const WEEK = {
      half (b). The asterisk between them is added for you.
      -------------------------------------------------------- */
   psalm: {
-    reference: "Psalm 90:1-6, 13-17",
+    reference: "Psalm 34:1-10, 22",
     rubric: "Read together, the whole room, unhurried.",
     verses: [
-      { n: 1, a: "Lord, you have been our refuge",
-             b: "from one generation to another." },
-      { n: 2, a: "Before the mountains were brought forth, or the land and the earth were born,",
-             b: "from age to age you are God." },
-      { n: 3, a: "You turn us back to the dust and say,",
-             b: "\"Go back, O child of earth.\"" },
-      { n: 4, a: "For a thousand years in your sight are like yesterday when it is past",
-             b: "and like a watch in the night." },
-      { n: 5, a: "You sweep us away like a dream;",
-             b: "we fade away suddenly like the grass." },
-      { n: 6, a: "In the morning it is green and flourishes;",
-             b: "in the evening it is dried up and withered." },
-      { n: 13, a: "Return, O LORD, how long will you tarry?",
-             b: "be gracious to your servants." },
-      { n: 14, a: "Satisfy us by your loving-kindness in the morning;",
-             b: "so shall we rejoice and be glad all the days of our life." },
-      { n: 15, a: "Make us glad by the measure of the days that you afflicted us",
-             b: "and the years in which we suffered adversity." },
-      { n: 16, a: "Show your servants your works",
-             b: "and your splendor to their children." },
-      { n: 17, a: "May the graciousness of the LORD our God be upon us;",
-             b: "prosper the work of our hands; prosper our handiwork." }
+      { n: 1, a: "I will bless the LORD at all times;",
+             b: "his praise shall ever be in my mouth." },
+      { n: 2, a: "I will glory in the LORD;",
+             b: "let the humble hear and rejoice." },
+      { n: 3, a: "Proclaim with me the greatness of the LORD;",
+             b: "let us exalt his Name together." },
+      { n: 4, a: "I sought the LORD, and he answered me",
+             b: "and delivered me out of all my terror." },
+      { n: 5, a: "Look upon him and be radiant,",
+             b: "and let not your faces be ashamed." },
+      { n: 6, a: "I called in my affliction and the LORD heard me",
+             b: "and saved me from all my troubles." },
+      { n: 7, a: "The angel of the LORD encompasses those who fear him,",
+             b: "and he will deliver them." },
+      { n: 8, a: "Taste and see that the LORD is good;",
+             b: "happy are they who trust in him!" },
+      { n: 9, a: "Fear the LORD, you that are his saints,",
+             b: "for those who fear him lack nothing." },
+      { n: 10, a: "The young lions lack and suffer hunger,",
+             b: "but those who seek the LORD lack nothing that is good." },
+      { n: 22, a: "The LORD ransoms the life of his servants,",
+             b: "and none will be punished who trust in him." }
     ]
   },
 
@@ -63,93 +63,92 @@ const WEEK = {
      -------------------------------------------------------- */
   songs: [
     {
-      title: "The One You Love (feat. Chandler Moore)",
+      title: "Slow Me Down",
       lyrics: [
         { label: "Verse 1", lines: [
-          "I can be real with you",
-          "Say anything and not be afraid",
-          "You made me and you like what you made",
-          "You made me and you don't make mistakes",
-          "I can be real with you"
-        ]},
-        { label: "Chorus", lines: [
-          "You take me just as I am",
-          "You choose me all over again",
-          "I am the one you love",
-          "I am the one you love",
-          "I don't have to prove anything",
-          "There's room at your table for me",
-          "I am the one you love",
-          "I am the one you love"
+          "O good shepherd",
+          "Would you teach me how to rest",
+          "I am rushing on",
+          "Will you make me to lie down",
+          "Will you build a fold",
+          "By the waters that refresh",
+          "Will you call my name",
+          "And lead me safely out"
         ]},
         { label: "Verse 2", lines: [
-          "I know you're proud of me",
-          "Even when I think I don't deserve it",
-          "Yes, I am a perfect child",
-          "But I still make my Father smile",
-          "I know you're proud of me"
+          "From my anxious drive",
+          "To labor on and on",
+          "From the restless grind",
+          "That has put my mind to sleep",
+          "Will you call me back",
+          "And gently slow me down",
+          "Will you show me now",
+          "What to lose and what to keep"
         ]},
-        { label: "Bridge", lines: [
-          "Your love, Your love never fails",
-          "Your love never fails"
+        { label: "Chorus", lines: [
+          "O Good Shepherd",
+          "O good friend",
+          "Slow me down",
+          "Slow me down (x2)"
+        ]},
+        { label: "Verse 3", lines: [
+          "When my table is bent",
+          "With only greed and gold",
+          "And my grasping hands",
+          "Are afraid you will not provide",
+          "Will you pour the wine",
+          "That loosens up my hold",
+          "Set your table here",
+          "With what truly satisfies"
+        ]},
+        { label: "Verse 4", lines: [
+          "On the busy streets",
+          "Trying to make myself a name",
+          "If the work is yours",
+          "There is nothing I can claim",
+          "Will you lead me home",
+          "To the pastures of your peace",
+          "And the house is yours",
+          "I am sitting at your feet"
         ]},
       ]
     },
     {
-      title: "So Good To Me",
+      title: "Kingdom of God",
       lyrics: [
         { label: "Verse 1", lines: [
-          "I couldn't see you",
-          "But you never left me",
-          "I couldn't hear your voice",
-          "But you heard mine",
-          "My world was chaotic",
-          "But you were the peace in the storm",
-          "It's deep in the valley",
-          "That I learned to trust you more"
+          "Oh that I could see your face",
+          "How I am longing for the day",
+          "Brighter sun of holy grace",
+          "Make my heart a holy place"
         ]},
         { label: "Chorus", lines: [
-          "In the middle of the darkest night",
-          "When I didn't have the strength to fight",
-          "You carried me when I couldn't see",
-          "You have been so good to me",
-          "When the tears would just fall like rain",
-          "Feeling all alone in my pain",
-          "And I didn't know if I still believed",
-          "You have been so good to me"
+          "Blessed are the poor who have nothing to own",
+          "Blessed are the mourners who are crying alone",
+          "Blessed are the guilty who have nowhere to go",
+          "For their hearts have a road",
+          "To the kingdom of God",
+          "And their souls are the songs",
+          "Of the kingdom of God",
+          "And they will find a refuge",
+          "For theirs is the kingdom of God"
         ]},
         { label: "Verse 2", lines: [
-          "I thought if I faked it",
-          "I'd finally make it",
-          "But you never wanted more",
-          "Than all that I am",
-          "You don't care about perfection",
-          "You care about who I'm meant to be",
-          "It's when I feel broken",
-          "That I learn to trust you more"
+          "Beauty shining from your face",
+          "Always longed to see this place",
+          "Is there somewhere I can stay?",
+          "Even just a couple days?"
         ]},
         { label: "Bridge", lines: [
-          "Awaken my soul",
-          "It's time to come home",
-          "I've sown many tears",
-          "But I'm reaping hope",
-          "You're giving me a new song to sing",
-          "You've been so good to me",
-          "The fear left me blind",
-          "But love helped me see",
-          "That you've never once forsaken me",
-          "It's more than I was taught to believe",
-          "You've been so good to me"
+          "The Lord is our shepherd, we shall not want",
+          "In valley or pasture, we shall not want",
+          "Our cup runneth over and over",
+          "For now and forever",
+          "For now and forever"
         ]},
-        { label: "Chorus 2", lines: [
-          "In the middle of the darkest of nights",
-          "When I didn't have the strength to fight",
-          "You carried me til now I can see",
-          "You have been so good to me",
-          "When the tears would just fall like rain",
-          "And I felt alone in all my pain",
-          "You have given me the faith to believe",
-          "You have been so good to me"
+        { label: "Verse 3", lines: [
+          "Oh that I could see your face",
+          "How I am longing for the day"
         ]},
       ]
     },
@@ -162,31 +161,31 @@ const WEEK = {
           "You know when I sit down and rise up",
           "You have searched out my path",
           "And my lying down",
-          "You're acquainted with all of my ways"
+          "You are acquainted with all of my ways"
         ]},
         { label: "Pre-Chorus", lines: [
           "Such knowledge is too wonderful for me"
         ]},
         { label: "Chorus", lines: [
-          "If I climb up to the heavens you're there",
+          "If I climb up to the heavens you are there",
           "If I fall into the depths you are there",
           "If I take the wings of the morning",
           "Fly to the furthest place",
           "Even there your hand will find me",
           "Even there your hand will hold me",
-          "Even there I know I'm safe"
+          "Even there I know I am safe"
         ]},
         { label: "Verse 2", lines: [
           "If I say surely darkness",
           "Shall pull me underneath",
           "And the night wraps itself around me",
-          "Even darkness isn't darkness",
+          "Even darkness is not darkness",
           "To the one who is the light",
           "You have guided my path so I can see"
         ]},
         { label: "Verse 3", lines: [
           "In the depths of the womb",
-          "I wasn't hidden from your love",
+          "I was not hidden from your love",
           "Your eyes saw who I would become",
           "Every day you wrote in secret",
           "Before any came to be",
@@ -203,8 +202,8 @@ const WEEK = {
      -------------------------------------------------------- */
   announcements: [
     { title: "Midweek",
-      body: "No Midweek this Tuesday." },
-    { title: "Dream Family Thanksgiving",
+      body: "This Tuesday night." },
+    { title: "Church Thanksgiving",
       body: "Sunday, November 22 at 10 AM." },
   ],
 
@@ -215,9 +214,9 @@ const WEEK = {
      "Amen." is added for you at the end.
      -------------------------------------------------------- */
   collect: {
-    title: "The Collect for the Twenty-second Sunday after Pentecost",
+    title: "The Collect for All Saints Day",
     rubric: "Prayed together, out loud.",
-    text: "Almighty and everliving God, you have made all things in your wisdom and established the boundaries of life and death: Grant that we may obey your voice in this world, and in the world to come may enjoy that rest and peace which you have appointed for your people; through Jesus Christ who is Resurrection and Life, and who lives and reigns for ever and ever."
+    text: "Almighty God, you have knit together your elect in one communion and fellowship in the mystical body of your Son Christ our Lord: Give us grace so to follow your blessed saints in all virtuous and godly living, that we may come to those ineffable joys that you have prepared for those who truly love you; through Jesus Christ our Lord, who with you and the Holy Spirit lives and reigns, one God, in glory everlasting."
   },
 
 
@@ -227,10 +226,10 @@ const WEEK = {
      reference on the screen.
      -------------------------------------------------------- */
   sermon: {
-    title: "Calling Things Up From The Dead",
+    title: "I Pledge Allegiance To…",
     readings: [
-      { reference: "1 Samuel 28:3-25" },
-      { reference: "Psalm 130" },
+      { reference: "Matthew 5:1-12" },
+      { reference: "Matthew 7:24-29" },
     ]
   },
 
