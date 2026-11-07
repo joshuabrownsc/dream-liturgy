@@ -14,9 +14,9 @@ const WEEK = {
   /* --------------------------------------------------------
      THE HEADER
      -------------------------------------------------------- */
-  date: "November 1, 2026",
-  season: "All Saints Day",
-  title: "I Pledge Allegiance To…",
+  date: "November 8, 2026",
+  season: "The Twenty-third Sunday after Pentecost",
+  title: "Hear the Word of the Lord",
   preacher: "Pastor Joshua Brown",
 
 
@@ -26,31 +26,21 @@ const WEEK = {
      half (b). The asterisk between them is added for you.
      -------------------------------------------------------- */
   psalm: {
-    reference: "Psalm 34:1-10, 22",
+    reference: "Psalm 70",
     rubric: "Read together, the whole room, unhurried.",
     verses: [
-      { n: 1, a: "I will bless the LORD at all times;",
-             b: "his praise shall ever be in my mouth." },
-      { n: 2, a: "I will glory in the LORD;",
-             b: "let the humble hear and rejoice." },
-      { n: 3, a: "Proclaim with me the greatness of the LORD;",
-             b: "let us exalt his Name together." },
-      { n: 4, a: "I sought the LORD, and he answered me",
-             b: "and delivered me out of all my terror." },
-      { n: 5, a: "Look upon him and be radiant,",
-             b: "and let not your faces be ashamed." },
-      { n: 6, a: "I called in my affliction and the LORD heard me",
-             b: "and saved me from all my troubles." },
-      { n: 7, a: "The angel of the LORD encompasses those who fear him,",
-             b: "and he will deliver them." },
-      { n: 8, a: "Taste and see that the LORD is good;",
-             b: "happy are they who trust in him!" },
-      { n: 9, a: "Fear the LORD, you that are his saints,",
-             b: "for those who fear him lack nothing." },
-      { n: 10, a: "The young lions lack and suffer hunger,",
-             b: "but those who seek the LORD lack nothing that is good." },
-      { n: 22, a: "The LORD ransoms the life of his servants,",
-             b: "and none will be punished who trust in him." }
+      { n: 1, a: "Be pleased, O God, to deliver me;",
+             b: "O LORD, make haste to help me." },
+      { n: 2, a: "Let those who seek my life be ashamed and altogether dismayed;",
+             b: "let those who take pleasure in my misfortune draw back and be disgraced." },
+      { n: 3, a: "Let those who say to me \"Aha!\" and gloat over me turn back,",
+             b: "because they are ashamed." },
+      { n: 4, a: "Let all who seek you rejoice and be glad in you;",
+             b: "let those who love your salvation say for ever, \"Great is the LORD!\"" },
+      { n: 5, a: "But as for me, I am poor and needy;",
+             b: "come to me speedily, O God." },
+      { n: 6, a: "You are my helper and my deliverer;",
+             b: "O LORD, do not tarry." }
     ]
   },
 
@@ -63,133 +53,125 @@ const WEEK = {
      -------------------------------------------------------- */
   songs: [
     {
-      title: "Slow Me Down",
+      title: "Promised Land",
       lyrics: [
         { label: "Verse 1", lines: [
-          "O good shepherd",
-          "Would you teach me how to rest",
-          "I'm rushing on",
-          "Will you make me to lie down",
-          "Will you build a fold",
-          "By the waters that refresh",
-          "Will you call my name",
-          "And lead me safely out"
-        ]},
-        { label: "Verse 2", lines: [
-          "From my anxious drive",
-          "To labor on and on",
-          "From the restless grind",
-          "That has put my mind to sleep",
-          "Will you call me back",
-          "And gently slow me down",
-          "Will you show me now",
-          "What to lose and what to keep"
+          "I know that You've been good to me",
+          "I know that You've been good to me",
+          "I know that You've been good to me",
+          "More than I ever hoped",
+          "I know that You've been good to me",
+          "I know that You've been good to me",
+          "I know that You've been good to me",
+          "More than I ever hoped"
         ]},
         { label: "Chorus", lines: [
-          "O Good Shepherd",
-          "O good friend",
-          "Slow me down",
-          "Slow me down"
-        ]},
-        { label: "Verse 3", lines: [
-          "When my table's bent",
-          "With only greed and gold",
-          "And my grasping hands",
-          "Are afraid you won't provide",
-          "Will you pour the wine",
-          "That loosens up my hold",
-          "Set your table here",
-          "With what truly satisfies"
-        ]},
-        { label: "Verse 4", lines: [
-          "On the busy streets",
-          "Trying to make myself a name",
-          "If the work is yours",
-          "There is nothing I can claim",
-          "Will you lead me home",
-          "To the pastures of your peace",
-          "And the house is yours",
-          "I'm sitting at your feet"
-        ]},
-      ]
-    },
-    {
-      title: "Kingdom of God",
-      lyrics: [
-        { label: "Verse 1", lines: [
-          "Oh that I could see your face",
-          "How I'm longing for the day",
-          "Brighter sun of holy grace",
-          "Make my heart a holy place"
-        ]},
-        { label: "Chorus", lines: [
-          "Blessed are the poor who have nothing to own",
-          "Blessed are the mourners who are crying alone",
-          "Blessed are the guilty who have nowhere to go",
-          "For their hearts have a road",
-          "To the kingdom of God",
-          "And their souls are the songs",
-          "Of the kingdom of God",
-          "And they will find a refuge",
-          "For theirs is the kingdom of God"
+          "It's a promised land, I'm never leaving",
+          "It's a promised land, I'm never leaving",
+          "It's a promised land, I'm never leaving",
+          "I'm never leaving You"
         ]},
         { label: "Verse 2", lines: [
-          "Beauty shining from your face",
-          "Always longed to see this place",
-          "Is there somewhere I can stay?",
-          "Even just a couple days?"
+          "I know that You're still in control",
+          "I know that You're still in control",
+          "I know that You're still in control",
+          "You never ever change",
+          "I know that You're still in control",
+          "I know that You're still in control",
+          "I know that You're still in control",
+          "You never ever change"
         ]},
         { label: "Bridge", lines: [
-          "The Lord is our shepherd, we shall not want",
-          "In valley or pasture, we shall not want",
-          "Our cup runneth over and over",
-          "For now and forever",
-          "For now and forever"
-        ]},
-        { label: "Verse 3", lines: [
-          "Oh that I could see your face",
-          "How I'm longing for the day"
+          "You pulled back the curtain and let in the light",
+          "You pulled back the curtain and let in the light",
+          "You let in the light"
         ]},
       ]
     },
     {
-      title: "Psalm 139 (I Am Safe)",
+      title: "Goodness Of God",
       lyrics: [
         { label: "Verse 1", lines: [
-          "O Lord you have searched me",
-          "You know everything",
-          "You know when I sit down and rise up",
-          "You have searched out my path",
-          "And my lying down",
-          "You're acquainted with all of my ways"
-        ]},
-        { label: "Pre-Chorus", lines: [
-          "Such knowledge is too wonderful for me"
+          "I love you, Lord",
+          "For your mercy never fails me",
+          "All my days, I've been held in your hands",
+          "From the moment that I wake up",
+          "Until I lay my head",
+          "I will sing of the goodness of God"
         ]},
         { label: "Chorus", lines: [
-          "If I climb up to the heavens you're there",
-          "If I fall into the depths you are there",
-          "If I take the wings of the morning",
-          "Fly to the furthest place",
-          "Even there your hand will find me",
-          "Even there your hand will hold me",
-          "Even there I know I'm safe"
+          "All my life you have been faithful",
+          "All my life you have been so, so good",
+          "With every breath that I am able",
+          "I will sing of the goodness of God"
         ]},
         { label: "Verse 2", lines: [
-          "If I say surely darkness",
-          "Shall pull me underneath",
-          "And the night wraps itself around me",
-          "Even darkness isn't darkness",
-          "To the one who is the light",
-          "You have guided my path so I can see"
+          "I love your voice",
+          "You have led me through the fire",
+          "In darkest night you are close like no other",
+          "I've known you as a father",
+          "I've known you as a friend",
+          "I have lived in the goodness of God"
         ]},
-        { label: "Verse 3", lines: [
-          "In the depths of the womb",
-          "I wasn't hidden from your love",
-          "Your eyes saw who I would become",
-          "Every day you wrote in secret",
-          "Before any came to be",
-          "My life responding to divinity"
+        { label: "Bridge", lines: [
+          "Your goodness is running after",
+          "It's running after me",
+          "Your goodness is running after",
+          "It's running after me",
+          "With my life laid down, I'm surrendered now",
+          "I give you everything",
+          "Your goodness is running after",
+          "It's running after me"
+        ]},
+      ]
+    },
+    {
+      title: "Incarnate Love",
+      lyrics: [
+        { label: "Verse 1", lines: [
+          "What love is this",
+          "Born to a world with no room for him",
+          "What love is this",
+          "He took on flesh and gave his life so we could live again"
+        ]},
+        { label: "Pre-Chorus", lines: [
+          "From the beginning of it all",
+          "He knew that he would never let his children fall"
+        ]},
+        { label: "Chorus", lines: [
+          "Incarnate love",
+          "Left the ninety-nine",
+          "To save our lives",
+          "And carry us back home",
+          "Incarnate love",
+          "Placed in a grave",
+          "3 days away",
+          "From life forevermore"
+        ]},
+        { label: "Verse 2", lines: [
+          "What love is this?",
+          "That a man would give himself to resurrect his friends",
+          "What love is this?",
+          "When on the cross, hope in his eyes, he prayed forgive them"
+        ]},
+        { label: "Bridge", lines: [
+          "His hands",
+          "Have never held us closer",
+          "To dance",
+          "The dance of all creation",
+          "His plan",
+          "Was always our redemption",
+          "This is where we belong"
+        ]},
+        { label: "Chorus 2", lines: [
+          "Incarnate love",
+          "Left the ninety-nine",
+          "To save my life",
+          "And carry me back home",
+          "Incarnate love",
+          "Conquered the grave",
+          "And now he reigns",
+          "In life forevermore"
         ]},
       ]
     },
@@ -201,10 +183,10 @@ const WEEK = {
      Three is the ceiling. Anything else goes in the newsletter.
      -------------------------------------------------------- */
   announcements: [
+    { title: "Dream Family Thanksgiving",
+      body: "Sunday, November 22 at 10 AM at the Pastor's Study. Sign up sheet is in the back near the coffee area." },
     { title: "Midweek",
-      body: "This Tuesday night." },
-    { title: "Church Thanksgiving",
-      body: "Sunday, November 22 at 10 AM." },
+      body: "No Midweek this week." },
   ],
 
 
@@ -214,9 +196,9 @@ const WEEK = {
      "Amen." is added for you at the end.
      -------------------------------------------------------- */
   collect: {
-    title: "The Collect for All Saints Day",
+    title: "The Collect for Proper 27",
     rubric: "Prayed together, out loud.",
-    text: "Almighty God, you have knit together your elect in one communion and fellowship in the mystical body of your Son Christ our Lord: Give us grace so to follow your blessed saints in all virtuous and godly living, that we may come to those ineffable joys that you have prepared for those who truly love you; through Jesus Christ our Lord, who with you and the Holy Spirit lives and reigns, one God, in glory everlasting."
+    text: "O God, whose blessed Son came into the world that he might destroy the works of the devil and make us children of God and heirs of eternal life: Grant that, having this hope, we may purify ourselves as he is pure; that, when he comes again with power and great glory, we may be made like him in his eternal and glorious kingdom; where he lives and reigns with you and the Holy Spirit, one God, for ever and ever."
   },
 
 
@@ -226,10 +208,9 @@ const WEEK = {
      reference on the screen.
      -------------------------------------------------------- */
   sermon: {
-    title: "I Pledge Allegiance To…",
+    title: "Hear the Word of the Lord",
     readings: [
-      { reference: "Matthew 5:1-12 NRSV" },
-      { reference: "Matthew 7:24-29 NRSV" },
+      { reference: "Jeremiah 22:29 NRSV" },
     ]
   },
 
