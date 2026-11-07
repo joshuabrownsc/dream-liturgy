@@ -56,32 +56,42 @@ const WEEK = {
       title: "Promised Land",
       lyrics: [
         { label: "Verse 1", lines: [
-          "I know that You've been good to me",
-          "I know that You've been good to me",
-          "I know that You've been good to me",
-          "More than I ever hoped",
-          "I know that You've been good to me",
-          "I know that You've been good to me",
-          "I know that You've been good to me",
-          "More than I ever hoped"
+          "You were not hiding",
+          "But I couldn't find You",
+          "If I'm being honest",
+          "Not sure I really tried",
+          "I wrestled with angels",
+          "Defending my idols",
+          "Walking in circles",
+          "'Til I was blinded by the light"
         ]},
         { label: "Chorus", lines: [
-          "It's a promised land, I'm never leaving",
-          "It's a promised land, I'm never leaving",
-          "It's a promised land, I'm never leaving",
-          "I'm never leaving You"
+          "Now my eyes are open",
+          "And Heaven's a breath away",
+          "You broke through my borders",
+          "And plotted my great escape",
+          "I'm running to freedom",
+          "I'm taking my second chance",
+          "Out of the grave, into the promised land"
         ]},
         { label: "Verse 2", lines: [
-          "I know that You're still in control",
-          "I know that You're still in control",
-          "I know that You're still in control",
-          "You never ever change",
-          "I know that You're still in control",
-          "I know that You're still in control",
-          "I know that You're still in control",
-          "You never ever change"
+          "You were not hiding",
+          "But I couldn't find You",
+          "I used to wander",
+          "Now I'm just lost in You",
+          "My heart is beating",
+          "I'm coming alive, coming alive",
+          "To see is believing",
+          "I don't even have to try"
         ]},
         { label: "Bridge", lines: [
+          "There is a place where faith becomes sight",
+          "You pulled back the curtain and let in the light"
+        ]},
+        { label: "Bridge Turnaround", lines: [
+          "You pulled back the curtain and let in the light"
+        ]},
+        { label: "Vamp", lines: [
           "You pulled back the curtain and let in the light",
           "You pulled back the curtain and let in the light",
           "You let in the light"
